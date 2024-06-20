@@ -1,0 +1,1144 @@
+[14:21:34,343 INFO][c.O.R.G.S.GetBranchesDetails.user_send_post_request_using_get_organization_details_api] The status Code Is :HTTP/1.1 200   
+[14:21:34,344 INFO][c.O.R.G.S.GetBranchesDetails.user_send_post_request_using_get_organization_details_api] Headers Are :[Vary=Origin, Vary=Access-Control-Request-Method, Vary=Access-Control-Request-Headers, X-Content-Type-Options=nosniff, X-XSS-Protection=0, Cache-Control=no-cache, no-store, max-age=0, must-revalidate, Pragma=no-cache, Expires=0, X-Frame-Options=DENY, Content-Type=text/plain;charset=UTF-8, Content-Length=24775, Date=Fri, 07 Jun 2024 08:51:43 GMT, Keep-Alive=timeout=60, Connection=keep-alive]  
+[14:21:34,387 INFO][c.O.R.G.S.GetBranchesDetails.user_send_post_request_using_get_organization_details_api] The response is:[
+    {
+        "name": "main",
+        "commit": {
+            "id": "df52a03023dbdcb3353fad6650f7af9d11fa31d6",
+            "message": "Sonarqube URL updated\n",
+            "url": "http://localhost:3000/OJAS/oneable-productivity/commit/df52a03023dbdcb3353fad6650f7af9d11fa31d6",
+            "author": {
+                "name": "sateeshreddyb",
+                "email": "sateeshkumar.bukkacherla@ojas-it.com",
+                "username": "sateeshreddyb"
+            },
+            "committer": {
+                "name": "sateeshreddyb",
+                "email": "sateeshkumar.bukkacherla@ojas-it.com",
+                "username": "sateeshreddyb"
+            },
+            "verification": {
+                "verified": false,
+                "reason": "gpg.error.not_signed_commit",
+                "signature": "",
+                "signer": null,
+                "payload": ""
+            },
+            "timestamp": "2024-05-21T11:55:04+05:30",
+            "added": null,
+            "removed": null,
+            "modified": null
+        },
+        "protected": false,
+        "required_approvals": 0,
+        "enable_status_check": false,
+        "status_check_contexts": [
+            
+        ],
+        "user_can_push": true,
+        "user_can_merge": true,
+        "effective_branch_protection_name": ""
+    },
+    {
+        "name": "api_tests",
+        "commit": {
+            "id": "002de1740ddf5392ec214669eb85a0d717c83e94",
+            "message": "Api tests added\n",
+            "url": "http://localhost:3000/OJAS/oneable-productivity/commit/002de1740ddf5392ec214669eb85a0d717c83e94",
+            "author": {
+                "name": "shivaprasadkalyan",
+                "email": "shivaprasad.kalyan@ojas-it.com",
+                "username": "shivaprasad.kalyan"
+            },
+            "committer": {
+                "name": "shivaprasadkalyan",
+                "email": "shivaprasad.kalyan@ojas-it.com",
+                "username": "shivaprasad.kalyan"
+            },
+            "verification": {
+                "verified": false,
+                "reason": "gpg.error.not_signed_commit",
+                "signature": "",
+                "signer": null,
+                "payload": ""
+            },
+            "timestamp": "2024-05-15T16:08:35+05:30",
+            "added": null,
+            "removed": null,
+            "modified": null
+        },
+        "protected": false,
+        "required_approvals": 0,
+        "enable_status_check": false,
+        "status_check_contexts": [
+            
+        ],
+        "user_can_push": true,
+        "user_can_merge": true,
+        "effective_branch_protection_name": ""
+    },
+    {
+        "name": "SonarQubeIssues",
+        "commit": {
+            "id": "9d179ae257617d20e3322501164aaf0941b12cce",
+            "message": "worked on issues\n",
+            "url": "http://localhost:3000/OJAS/oneable-productivity/commit/9d179ae257617d20e3322501164aaf0941b12cce",
+            "author": {
+                "name": "saidupati",
+                "email": "saiprasanna.dupati@ojas-it.com",
+                "username": "saiprasanna.dupati"
+            },
+            "committer": {
+                "name": "saidupati",
+                "email": "saiprasanna.dupati@ojas-it.com",
+                "username": "saiprasanna.dupati"
+            },
+            "verification": {
+                "verified": false,
+                "reason": "gpg.error.not_signed_commit",
+                "signature": "",
+                "signer": null,
+                "payload": ""
+            },
+            "timestamp": "2024-05-08T11:14:22+05:30",
+            "added": null,
+            "removed": null,
+            "modified": null
+        },
+        "protected": false,
+        "required_approvals": 0,
+        "enable_status_check": false,
+        "status_check_contexts": [
+            
+        ],
+        "user_can_push": true,
+        "user_can_merge": true,
+        "effective_branch_protection_name": ""
+    },
+    {
+        "name": "aopLogging",
+        "commit": {
+            "id": "9a8df81ae630790f4c4612a2ff6d2b6a2bc26f40",
+            "message": "latest modification for Logging Handler (exception is handled) and message bundle file\n",
+            "url": "http://localhost:3000/OJAS/oneable-productivity/commit/9a8df81ae630790f4c4612a2ff6d2b6a2bc26f40",
+            "author": {
+                "name": "shivaprasadkalyan",
+                "email": "shivaprasad.kalyan@ojas-it.com",
+                "username": "shivaprasad.kalyan"
+            },
+            "committer": {
+                "name": "shivaprasadkalyan",
+                "email": "shivaprasad.kalyan@ojas-it.com",
+                "username": "shivaprasad.kalyan"
+            },
+            "verification": {
+                "verified": false,
+                "reason": "gpg.error.not_signed_commit",
+                "signature": "",
+                "signer": null,
+                "payload": ""
+            },
+            "timestamp": "2024-04-12T17:31:02+05:30",
+            "added": null,
+            "removed": null,
+            "modified": null
+        },
+        "protected": false,
+        "required_approvals": 0,
+        "enable_status_check": false,
+        "status_check_contexts": [
+            
+        ],
+        "user_can_push": true,
+        "user_can_merge": true,
+        "effective_branch_protection_name": ""
+    },
+    {
+        "name": "sonarCubeIssuesResolved1",
+        "commit": {
+            "id": "044f3048767d1aa2197ac4a24f737e679161709c",
+            "message": "modified files\n",
+            "url": "http://localhost:3000/OJAS/oneable-productivity/commit/044f3048767d1aa2197ac4a24f737e679161709c",
+            "author": {
+                "name": "shivaprasadkalyan",
+                "email": "shivaprasad.kalyan@ojas-it.com",
+                "username": "shivaprasad.kalyan"
+            },
+            "committer": {
+                "name": "shivaprasadkalyan",
+                "email": "shivaprasad.kalyan@ojas-it.com",
+                "username": "shivaprasad.kalyan"
+            },
+            "verification": {
+                "verified": false,
+                "reason": "gpg.error.not_signed_commit",
+                "signature": "",
+                "signer": null,
+                "payload": ""
+            },
+            "timestamp": "2024-04-12T14:46:28+05:30",
+            "added": null,
+            "removed": null,
+            "modified": null
+        },
+        "protected": false,
+        "required_approvals": 0,
+        "enable_status_check": false,
+        "status_check_contexts": [
+            
+        ],
+        "user_can_push": true,
+        "user_can_merge": true,
+        "effective_branch_protection_name": ""
+    },
+    {
+        "name": "InternalizationOutput",
+        "commit": {
+            "id": "51581a0e309bc7fe76bfcf0b760739ebd2466e4f",
+            "message": "written internalization messages\n",
+            "url": "http://localhost:3000/OJAS/oneable-productivity/commit/51581a0e309bc7fe76bfcf0b760739ebd2466e4f",
+            "author": {
+                "name": "saidupati",
+                "email": "saiprasanna.dupati@ojas-it.com",
+                "username": "saiprasanna.dupati"
+            },
+            "committer": {
+                "name": "saidupati",
+                "email": "saiprasanna.dupati@ojas-it.com",
+                "username": "saiprasanna.dupati"
+            },
+            "verification": {
+                "verified": false,
+                "reason": "gpg.error.not_signed_commit",
+                "signature": "",
+                "signer": null,
+                "payload": ""
+            },
+            "timestamp": "2024-04-11T10:22:11+05:30",
+            "added": null,
+            "removed": null,
+            "modified": null
+        },
+        "protected": false,
+        "required_approvals": 0,
+        "enable_status_check": false,
+        "status_check_contexts": [
+            
+        ],
+        "user_can_push": true,
+        "user_can_merge": true,
+        "effective_branch_protection_name": ""
+    },
+    {
+        "name": "bitbucketrepositoriesdetails",
+        "commit": {
+            "id": "4ae70e415506963369a51041ef169101646e9e09",
+            "message": "repositories details updated\n",
+            "url": "http://localhost:3000/OJAS/oneable-productivity/commit/4ae70e415506963369a51041ef169101646e9e09",
+            "author": {
+                "name": "Sravan Kumar Puli",
+                "email": "648fcba0a14a5814d62207ca@1able.ai",
+                "username": ""
+            },
+            "committer": {
+                "name": "Sravan Kumar Puli",
+                "email": "648fcba0a14a5814d62207ca@1able.ai",
+                "username": ""
+            },
+            "verification": {
+                "verified": false,
+                "reason": "gpg.error.not_signed_commit",
+                "signature": "",
+                "signer": null,
+                "payload": ""
+            },
+            "timestamp": "2024-04-08T15:47:40+05:30",
+            "added": null,
+            "removed": null,
+            "modified": null
+        },
+        "protected": false,
+        "required_approvals": 0,
+        "enable_status_check": false,
+        "status_check_contexts": [
+            
+        ],
+        "user_can_push": true,
+        "user_can_merge": true,
+        "effective_branch_protection_name": ""
+    },
+    {
+        "name": "bitbucketuserdetails",
+        "commit": {
+            "id": "e18080a3397c190b5519dc85a4a10b7dc08e0f11",
+            "message": "repositories details\n",
+            "url": "http://localhost:3000/OJAS/oneable-productivity/commit/e18080a3397c190b5519dc85a4a10b7dc08e0f11",
+            "author": {
+                "name": "Sravan Kumar Puli",
+                "email": "648fcba0a14a5814d62207ca@1able.ai",
+                "username": ""
+            },
+            "committer": {
+                "name": "Sravan Kumar Puli",
+                "email": "648fcba0a14a5814d62207ca@1able.ai",
+                "username": ""
+            },
+            "verification": {
+                "verified": false,
+                "reason": "gpg.error.not_signed_commit",
+                "signature": "",
+                "signer": null,
+                "payload": ""
+            },
+            "timestamp": "2024-04-08T10:53:44+05:30",
+            "added": null,
+            "removed": null,
+            "modified": null
+        },
+        "protected": false,
+        "required_approvals": 0,
+        "enable_status_check": false,
+        "status_check_contexts": [
+            
+        ],
+        "user_can_push": true,
+        "user_can_merge": true,
+        "effective_branch_protection_name": ""
+    },
+    {
+        "name": "sonarLogin",
+        "commit": {
+            "id": "5ef10bd53a548e9577147c51b0b153f6d3b68028",
+            "message": "commit for sonarLint\n",
+            "url": "http://localhost:3000/OJAS/oneable-productivity/commit/5ef10bd53a548e9577147c51b0b153f6d3b68028",
+            "author": {
+                "name": "shivaprasadkalyan",
+                "email": "shivaprasad.kalyan@ojas-it.com",
+                "username": "shivaprasad.kalyan"
+            },
+            "committer": {
+                "name": "shivaprasadkalyan",
+                "email": "shivaprasad.kalyan@ojas-it.com",
+                "username": "shivaprasad.kalyan"
+            },
+            "verification": {
+                "verified": false,
+                "reason": "gpg.error.not_signed_commit",
+                "signature": "",
+                "signer": null,
+                "payload": ""
+            },
+            "timestamp": "2024-04-04T17:22:43+05:30",
+            "added": null,
+            "removed": null,
+            "modified": null
+        },
+        "protected": false,
+        "required_approvals": 0,
+        "enable_status_check": false,
+        "status_check_contexts": [
+            
+        ],
+        "user_can_push": true,
+        "user_can_merge": true,
+        "effective_branch_protection_name": ""
+    },
+    {
+        "name": "BranchDetailsOfBitBucket",
+        "commit": {
+            "id": "3687562d27f1e80780700fa2a1693ea81c823591",
+            "message": "working on internalization\n",
+            "url": "http://localhost:3000/OJAS/oneable-productivity/commit/3687562d27f1e80780700fa2a1693ea81c823591",
+            "author": {
+                "name": "saidupati",
+                "email": "saiprasanna.dupati@ojas-it.com",
+                "username": "saiprasanna.dupati"
+            },
+            "committer": {
+                "name": "saidupati",
+                "email": "saiprasanna.dupati@ojas-it.com",
+                "username": "saiprasanna.dupati"
+            },
+            "verification": {
+                "verified": false,
+                "reason": "gpg.error.not_signed_commit",
+                "signature": "",
+                "signer": null,
+                "payload": ""
+            },
+            "timestamp": "2024-04-01T11:58:56+05:30",
+            "added": null,
+            "removed": null,
+            "modified": null
+        },
+        "protected": false,
+        "required_approvals": 0,
+        "enable_status_check": false,
+        "status_check_contexts": [
+            
+        ],
+        "user_can_push": true,
+        "user_can_merge": true,
+        "effective_branch_protection_name": ""
+    },
+    {
+        "name": "gitea-user-details",
+        "commit": {
+            "id": "f743b468fc27c7a6531626dbbb69c727775ad744",
+            "message": "controller modified\n",
+            "url": "http://localhost:3000/OJAS/oneable-productivity/commit/f743b468fc27c7a6531626dbbb69c727775ad744",
+            "author": {
+                "name": "shivaprasadkalyan",
+                "email": "shivaprasad.kalyan@ojas-it.com",
+                "username": "shivaprasad.kalyan"
+            },
+            "committer": {
+                "name": "shivaprasadkalyan",
+                "email": "shivaprasad.kalyan@ojas-it.com",
+                "username": "shivaprasad.kalyan"
+            },
+            "verification": {
+                "verified": false,
+                "reason": "gpg.error.not_signed_commit",
+                "signature": "",
+                "signer": null,
+                "payload": ""
+            },
+            "timestamp": "2024-03-29T15:20:08+05:30",
+            "added": null,
+            "removed": null,
+            "modified": null
+        },
+        "protected": false,
+        "required_approvals": 0,
+        "enable_status_check": false,
+        "status_check_contexts": [
+            
+        ],
+        "user_can_push": true,
+        "user_can_merge": true,
+        "effective_branch_protection_name": ""
+    },
+    {
+        "name": "bitbucketGetOrganizationDetails",
+        "commit": {
+            "id": "70bf165f8958f8acfc01006e592909c45cbe45f4",
+            "message": "added latest merge code\n",
+            "url": "http://localhost:3000/OJAS/oneable-productivity/commit/70bf165f8958f8acfc01006e592909c45cbe45f4",
+            "author": {
+                "name": "shivaprasadkalyan",
+                "email": "shivaprasad.kalyan@ojas-it.com",
+                "username": "shivaprasad.kalyan"
+            },
+            "committer": {
+                "name": "shivaprasadkalyan",
+                "email": "shivaprasad.kalyan@ojas-it.com",
+                "username": "shivaprasad.kalyan"
+            },
+            "verification": {
+                "verified": false,
+                "reason": "gpg.error.not_signed_commit",
+                "signature": "",
+                "signer": null,
+                "payload": ""
+            },
+            "timestamp": "2024-03-28T16:53:05+05:30",
+            "added": null,
+            "removed": null,
+            "modified": null
+        },
+        "protected": false,
+        "required_approvals": 0,
+        "enable_status_check": false,
+        "status_check_contexts": [
+            
+        ],
+        "user_can_push": true,
+        "user_can_merge": true,
+        "effective_branch_protection_name": ""
+    },
+    {
+        "name": "githubservicetest",
+        "commit": {
+            "id": "a094b38c69fef54a435c31802a462f67b473c655",
+            "message": "bitbucketuserdetails\n",
+            "url": "http://localhost:3000/OJAS/oneable-productivity/commit/a094b38c69fef54a435c31802a462f67b473c655",
+            "author": {
+                "name": "Sravan Kumar Puli",
+                "email": "648fcba0a14a5814d62207ca@1able.ai",
+                "username": ""
+            },
+            "committer": {
+                "name": "Sravan Kumar Puli",
+                "email": "648fcba0a14a5814d62207ca@1able.ai",
+                "username": ""
+            },
+            "verification": {
+                "verified": false,
+                "reason": "gpg.error.not_signed_commit",
+                "signature": "",
+                "signer": null,
+                "payload": ""
+            },
+            "timestamp": "2024-03-26T12:26:07+05:30",
+            "added": null,
+            "removed": null,
+            "modified": null
+        },
+        "protected": false,
+        "required_approvals": 0,
+        "enable_status_check": false,
+        "status_check_contexts": [
+            
+        ],
+        "user_can_push": true,
+        "user_can_merge": true,
+        "effective_branch_protection_name": ""
+    },
+    {
+        "name": "meetingsTime",
+        "commit": {
+            "id": "1fd70a005ac11351159309bf3bf83928934e007e",
+            "message": "latest code\n",
+            "url": "http://localhost:3000/OJAS/oneable-productivity/commit/1fd70a005ac11351159309bf3bf83928934e007e",
+            "author": {
+                "name": "shivaprasadkalyan",
+                "email": "shivaprasad.kalyan@ojas-it.com",
+                "username": "shivaprasad.kalyan"
+            },
+            "committer": {
+                "name": "shivaprasadkalyan",
+                "email": "shivaprasad.kalyan@ojas-it.com",
+                "username": "shivaprasad.kalyan"
+            },
+            "verification": {
+                "verified": false,
+                "reason": "gpg.error.not_signed_commit",
+                "signature": "",
+                "signer": null,
+                "payload": ""
+            },
+            "timestamp": "2024-03-20T13:03:31+05:30",
+            "added": null,
+            "removed": null,
+            "modified": null
+        },
+        "protected": false,
+        "required_approvals": 0,
+        "enable_status_check": false,
+        "status_check_contexts": [
+            
+        ],
+        "user_can_push": true,
+        "user_can_merge": true,
+        "effective_branch_protection_name": ""
+    },
+    {
+        "name": "gitearepositorydetail_dev",
+        "commit": {
+            "id": "f0f9c8b9a6e9d0ff7458e1eab36f5faaa10ac7b6",
+            "message": "github service impl test cases\n",
+            "url": "http://localhost:3000/OJAS/oneable-productivity/commit/f0f9c8b9a6e9d0ff7458e1eab36f5faaa10ac7b6",
+            "author": {
+                "name": "Sravan Kumar Puli",
+                "email": "648fcba0a14a5814d62207ca@1able.ai",
+                "username": ""
+            },
+            "committer": {
+                "name": "Sravan Kumar Puli",
+                "email": "648fcba0a14a5814d62207ca@1able.ai",
+                "username": ""
+            },
+            "verification": {
+                "verified": false,
+                "reason": "gpg.error.not_signed_commit",
+                "signature": "",
+                "signer": null,
+                "payload": ""
+            },
+            "timestamp": "2024-03-18T11:03:28+05:30",
+            "added": null,
+            "removed": null,
+            "modified": null
+        },
+        "protected": false,
+        "required_approvals": 0,
+        "enable_status_check": false,
+        "status_check_contexts": [
+            
+        ],
+        "user_can_push": true,
+        "user_can_merge": true,
+        "effective_branch_protection_name": ""
+    },
+    {
+        "name": "teamsMeetingCount",
+        "commit": {
+            "id": "27a4925eeca622e109aff5fac8ad90ea8de684e8",
+            "message": "worked based on comments\n",
+            "url": "http://localhost:3000/OJAS/oneable-productivity/commit/27a4925eeca622e109aff5fac8ad90ea8de684e8",
+            "author": {
+                "name": "saidupati",
+                "email": "saiprasanna.dupati@ojas-it.com",
+                "username": "saiprasanna.dupati"
+            },
+            "committer": {
+                "name": "saidupati",
+                "email": "saiprasanna.dupati@ojas-it.com",
+                "username": "saiprasanna.dupati"
+            },
+            "verification": {
+                "verified": false,
+                "reason": "gpg.error.not_signed_commit",
+                "signature": "",
+                "signer": null,
+                "payload": ""
+            },
+            "timestamp": "2024-03-13T12:41:01+05:30",
+            "added": null,
+            "removed": null,
+            "modified": null
+        },
+        "protected": false,
+        "required_approvals": 0,
+        "enable_status_check": false,
+        "status_check_contexts": [
+            
+        ],
+        "user_can_push": true,
+        "user_can_merge": true,
+        "effective_branch_protection_name": ""
+    },
+    {
+        "name": "getchattime",
+        "commit": {
+            "id": "c56ca936ec025b486648141f7ea9e7ebdb7b171b",
+            "message": "changed\n",
+            "url": "http://localhost:3000/OJAS/oneable-productivity/commit/c56ca936ec025b486648141f7ea9e7ebdb7b171b",
+            "author": {
+                "name": "$V42000-6AL6I3G3V5H2",
+                "email": "mahesh.middela@ojas-it.com",
+                "username": "mahesh.middela"
+            },
+            "committer": {
+                "name": "$V42000-6AL6I3G3V5H2",
+                "email": "mahesh.middela@ojas-it.com",
+                "username": "mahesh.middela"
+            },
+            "verification": {
+                "verified": false,
+                "reason": "gpg.error.not_signed_commit",
+                "signature": "",
+                "signer": null,
+                "payload": ""
+            },
+            "timestamp": "2024-03-08T16:01:21+05:30",
+            "added": null,
+            "removed": null,
+            "modified": null
+        },
+        "protected": false,
+        "required_approvals": 0,
+        "enable_status_check": false,
+        "status_check_contexts": [
+            
+        ],
+        "user_can_push": true,
+        "user_can_merge": true,
+        "effective_branch_protection_name": ""
+    },
+    {
+        "name": "filter-exception-handling",
+        "commit": {
+            "id": "a618b4746a0badace70281936418ba3daaa07797",
+            "message": "fix : handled custom exception in filter\n",
+            "url": "http://localhost:3000/OJAS/oneable-productivity/commit/a618b4746a0badace70281936418ba3daaa07797",
+            "author": {
+                "name": "vijayamohanreddy.konda",
+                "email": "vijayamohanreddy.konda@ojas-it.com",
+                "username": "vijayamohanreddy.konda"
+            },
+            "committer": {
+                "name": "vijayamohanreddy.konda",
+                "email": "vijayamohanreddy.konda@ojas-it.com",
+                "username": "vijayamohanreddy.konda"
+            },
+            "verification": {
+                "verified": false,
+                "reason": "gpg.error.not_signed_commit",
+                "signature": "",
+                "signer": null,
+                "payload": ""
+            },
+            "timestamp": "2024-03-01T12:32:47+05:30",
+            "added": null,
+            "removed": null,
+            "modified": null
+        },
+        "protected": false,
+        "required_approvals": 0,
+        "enable_status_check": false,
+        "status_check_contexts": [
+            
+        ],
+        "user_can_push": true,
+        "user_can_merge": true,
+        "effective_branch_protection_name": ""
+    },
+    {
+        "name": "giteaGetBranchDetails",
+        "commit": {
+            "id": "f267606c673825e000888f1e7a66435c59b4f53e",
+            "message": "modified files as mention in comments\n",
+            "url": "http://localhost:3000/OJAS/oneable-productivity/commit/f267606c673825e000888f1e7a66435c59b4f53e",
+            "author": {
+                "name": "shivaprasadkalyan",
+                "email": "shivaprasad.kalyan@ojas-it.com",
+                "username": "shivaprasad.kalyan"
+            },
+            "committer": {
+                "name": "shivaprasadkalyan",
+                "email": "shivaprasad.kalyan@ojas-it.com",
+                "username": "shivaprasad.kalyan"
+            },
+            "verification": {
+                "verified": false,
+                "reason": "gpg.error.not_signed_commit",
+                "signature": "",
+                "signer": null,
+                "payload": ""
+            },
+            "timestamp": "2024-02-29T17:24:13+05:30",
+            "added": null,
+            "removed": null,
+            "modified": null
+        },
+        "protected": false,
+        "required_approvals": 0,
+        "enable_status_check": false,
+        "status_check_contexts": [
+            
+        ],
+        "user_can_push": true,
+        "user_can_merge": true,
+        "effective_branch_protection_name": ""
+    },
+    {
+        "name": "ymlfileupdateurl",
+        "commit": {
+            "id": "a81f731c7a571732459f0bbcece34f01f09be73b",
+            "message": "Merge pull request 'Resolved' (#42) from userbugs into main\n\nReviewed-on: http://localhost:3000/OJAS/oneable-productivity/pulls/42\n",
+            "url": "http://localhost:3000/OJAS/oneable-productivity/commit/a81f731c7a571732459f0bbcece34f01f09be73b",
+            "author": {
+                "name": "saiprasanna.dupati",
+                "email": "saiprasanna.dupati@ojas-it.com",
+                "username": "saiprasanna.dupati"
+            },
+            "committer": {
+                "name": "saiprasanna.dupati",
+                "email": "saiprasanna.dupati@ojas-it.com",
+                "username": "saiprasanna.dupati"
+            },
+            "verification": {
+                "verified": false,
+                "reason": "gpg.error.not_signed_commit",
+                "signature": "",
+                "signer": null,
+                "payload": ""
+            },
+            "timestamp": "2024-02-29T10:25:57+05:30",
+            "added": null,
+            "removed": null,
+            "modified": null
+        },
+        "protected": false,
+        "required_approvals": 0,
+        "enable_status_check": false,
+        "status_check_contexts": [
+            
+        ],
+        "user_can_push": true,
+        "user_can_merge": true,
+        "effective_branch_protection_name": ""
+    },
+    {
+        "name": "userbugs",
+        "commit": {
+            "id": "4f32e140328868305c69f6e08c88273046e66831",
+            "message": "Resolved\n",
+            "url": "http://localhost:3000/OJAS/oneable-productivity/commit/4f32e140328868305c69f6e08c88273046e66831",
+            "author": {
+                "name": "$V42000-6AL6I3G3V5H2",
+                "email": "mahesh.middela@ojas-it.com",
+                "username": "mahesh.middela"
+            },
+            "committer": {
+                "name": "$V42000-6AL6I3G3V5H2",
+                "email": "mahesh.middela@ojas-it.com",
+                "username": "mahesh.middela"
+            },
+            "verification": {
+                "verified": false,
+                "reason": "gpg.error.not_signed_commit",
+                "signature": "",
+                "signer": null,
+                "payload": ""
+            },
+            "timestamp": "2024-02-29T10:23:03+05:30",
+            "added": null,
+            "removed": null,
+            "modified": null
+        },
+        "protected": false,
+        "required_approvals": 0,
+        "enable_status_check": false,
+        "status_check_contexts": [
+            
+        ],
+        "user_can_push": true,
+        "user_can_merge": true,
+        "effective_branch_protection_name": ""
+    },
+    {
+        "name": "gitearepositorydetails",
+        "commit": {
+            "id": "ea65988cc362888bb6f50432ebda252fdebce6eb",
+            "message": "git repository_details added\n",
+            "url": "http://localhost:3000/OJAS/oneable-productivity/commit/ea65988cc362888bb6f50432ebda252fdebce6eb",
+            "author": {
+                "name": "Sravan Kumar Puli",
+                "email": "648fcba0a14a5814d62207ca@1able.ai",
+                "username": ""
+            },
+            "committer": {
+                "name": "Sravan Kumar Puli",
+                "email": "648fcba0a14a5814d62207ca@1able.ai",
+                "username": ""
+            },
+            "verification": {
+                "verified": false,
+                "reason": "gpg.error.not_signed_commit",
+                "signature": "",
+                "signer": null,
+                "payload": ""
+            },
+            "timestamp": "2024-02-28T23:03:55+05:30",
+            "added": null,
+            "removed": null,
+            "modified": null
+        },
+        "protected": false,
+        "required_approvals": 0,
+        "enable_status_check": false,
+        "status_check_contexts": [
+            
+        ],
+        "user_can_push": true,
+        "user_can_merge": true,
+        "effective_branch_protection_name": ""
+    },
+    {
+        "name": "ymlfileupdate",
+        "commit": {
+            "id": "fd1791e23f43800a66dd47d44b0bfe95d1260ec2",
+            "message": "code updated\n",
+            "url": "http://localhost:3000/OJAS/oneable-productivity/commit/fd1791e23f43800a66dd47d44b0bfe95d1260ec2",
+            "author": {
+                "name": "Anusha Jagary",
+                "email": "63fb3cba2c98d40e3207c940@1able.ai",
+                "username": ""
+            },
+            "committer": {
+                "name": "Anusha Jagary",
+                "email": "63fb3cba2c98d40e3207c940@1able.ai",
+                "username": ""
+            },
+            "verification": {
+                "verified": false,
+                "reason": "gpg.error.not_signed_commit",
+                "signature": "",
+                "signer": null,
+                "payload": ""
+            },
+            "timestamp": "2024-02-28T15:03:43+05:30",
+            "added": null,
+            "removed": null,
+            "modified": null
+        },
+        "protected": false,
+        "required_approvals": 0,
+        "enable_status_check": false,
+        "status_check_contexts": [
+            
+        ],
+        "user_can_push": true,
+        "user_can_merge": true,
+        "effective_branch_protection_name": ""
+    },
+    {
+        "name": "github-integration",
+        "commit": {
+            "id": "96903288ee764ae544498b40db0f1ab35e88807b",
+            "message": "merge conflicts resolved\n",
+            "url": "http://localhost:3000/OJAS/oneable-productivity/commit/96903288ee764ae544498b40db0f1ab35e88807b",
+            "author": {
+                "name": "vijayamohanreddy.konda",
+                "email": "vijayamohanreddy.konda@ojas-it.com",
+                "username": "vijayamohanreddy.konda"
+            },
+            "committer": {
+                "name": "vijayamohanreddy.konda",
+                "email": "vijayamohanreddy.konda@ojas-it.com",
+                "username": "vijayamohanreddy.konda"
+            },
+            "verification": {
+                "verified": false,
+                "reason": "gpg.error.not_signed_commit",
+                "signature": "",
+                "signer": null,
+                "payload": ""
+            },
+            "timestamp": "2024-02-28T14:31:16+05:30",
+            "added": null,
+            "removed": null,
+            "modified": null
+        },
+        "protected": false,
+        "required_approvals": 0,
+        "enable_status_check": false,
+        "status_check_contexts": [
+            
+        ],
+        "user_can_push": true,
+        "user_can_merge": true,
+        "effective_branch_protection_name": ""
+    },
+    {
+        "name": "GetBranchesDetails",
+        "commit": {
+            "id": "abb314eee626a09fa1c74e86fe5398f602a31345",
+            "message": "changed git to gitea\n",
+            "url": "http://localhost:3000/OJAS/oneable-productivity/commit/abb314eee626a09fa1c74e86fe5398f602a31345",
+            "author": {
+                "name": "saidupati",
+                "email": "saiprasanna.dupati@ojas-it.com",
+                "username": "saiprasanna.dupati"
+            },
+            "committer": {
+                "name": "saidupati",
+                "email": "saiprasanna.dupati@ojas-it.com",
+                "username": "saiprasanna.dupati"
+            },
+            "verification": {
+                "verified": false,
+                "reason": "gpg.error.not_signed_commit",
+                "signature": "",
+                "signer": null,
+                "payload": ""
+            },
+            "timestamp": "2024-02-28T12:05:55+05:30",
+            "added": null,
+            "removed": null,
+            "modified": null
+        },
+        "protected": false,
+        "required_approvals": 0,
+        "enable_status_check": false,
+        "status_check_contexts": [
+            
+        ],
+        "user_can_push": true,
+        "user_can_merge": true,
+        "effective_branch_protection_name": ""
+    },
+    {
+        "name": "githubrepository",
+        "commit": {
+            "id": "081eadb48a81b581771e885cae0e1a56274b2117",
+            "message": "repository details\n",
+            "url": "http://localhost:3000/OJAS/oneable-productivity/commit/081eadb48a81b581771e885cae0e1a56274b2117",
+            "author": {
+                "name": "Sravan Kumar Puli",
+                "email": "648fcba0a14a5814d62207ca@1able.ai",
+                "username": ""
+            },
+            "committer": {
+                "name": "Sravan Kumar Puli",
+                "email": "648fcba0a14a5814d62207ca@1able.ai",
+                "username": ""
+            },
+            "verification": {
+                "verified": false,
+                "reason": "gpg.error.not_signed_commit",
+                "signature": "",
+                "signer": null,
+                "payload": ""
+            },
+            "timestamp": "2024-02-27T16:07:31+05:30",
+            "added": null,
+            "removed": null,
+            "modified": null
+        },
+        "protected": false,
+        "required_approvals": 0,
+        "enable_status_check": false,
+        "status_check_contexts": [
+            
+        ],
+        "user_can_push": true,
+        "user_can_merge": true,
+        "effective_branch_protection_name": ""
+    },
+    {
+        "name": "git_repositories",
+        "commit": {
+            "id": "71ed01abe41b81f9926ab5a26f13adfee6d6c0aa",
+            "message": "Changes are done\n",
+            "url": "http://localhost:3000/OJAS/oneable-productivity/commit/71ed01abe41b81f9926ab5a26f13adfee6d6c0aa",
+            "author": {
+                "name": "$V42000-6AL6I3G3V5H2",
+                "email": "mahesh.middela@ojas-it.com",
+                "username": "mahesh.middela"
+            },
+            "committer": {
+                "name": "$V42000-6AL6I3G3V5H2",
+                "email": "mahesh.middela@ojas-it.com",
+                "username": "mahesh.middela"
+            },
+            "verification": {
+                "verified": false,
+                "reason": "gpg.error.not_signed_commit",
+                "signature": "",
+                "signer": null,
+                "payload": ""
+            },
+            "timestamp": "2024-02-26T17:14:54+05:30",
+            "added": null,
+            "removed": null,
+            "modified": null
+        },
+        "protected": false,
+        "required_approvals": 0,
+        "enable_status_check": false,
+        "status_check_contexts": [
+            
+        ],
+        "user_can_push": true,
+        "user_can_merge": true,
+        "effective_branch_protection_name": ""
+    },
+    {
+        "name": "repositories",
+        "commit": {
+            "id": "8408865017417971320a8c1dbd93eadd7f131e6c",
+            "message": "changes are done in gitrepositories\n",
+            "url": "http://localhost:3000/OJAS/oneable-productivity/commit/8408865017417971320a8c1dbd93eadd7f131e6c",
+            "author": {
+                "name": "$V42000-6AL6I3G3V5H2",
+                "email": "mahesh.middela@ojas-it.com",
+                "username": "mahesh.middela"
+            },
+            "committer": {
+                "name": "$V42000-6AL6I3G3V5H2",
+                "email": "mahesh.middela@ojas-it.com",
+                "username": "mahesh.middela"
+            },
+            "verification": {
+                "verified": false,
+                "reason": "gpg.error.not_signed_commit",
+                "signature": "",
+                "signer": null,
+                "payload": ""
+            },
+            "timestamp": "2024-02-26T14:42:41+05:30",
+            "added": null,
+            "removed": null,
+            "modified": null
+        },
+        "protected": false,
+        "required_approvals": 0,
+        "enable_status_check": false,
+        "status_check_contexts": [
+            
+        ],
+        "user_can_push": true,
+        "user_can_merge": true,
+        "effective_branch_protection_name": ""
+    },
+    {
+        "name": "gitallrepositories",
+        "commit": {
+            "id": "5557ff6b97cc6ba9fc59c6802e66c7c8e3f4cef9",
+            "message": "changes are done in git repositories\n",
+            "url": "http://localhost:3000/OJAS/oneable-productivity/commit/5557ff6b97cc6ba9fc59c6802e66c7c8e3f4cef9",
+            "author": {
+                "name": "$V42000-6AL6I3G3V5H2",
+                "email": "mahesh.middela@ojas-it.com",
+                "username": "mahesh.middela"
+            },
+            "committer": {
+                "name": "$V42000-6AL6I3G3V5H2",
+                "email": "mahesh.middela@ojas-it.com",
+                "username": "mahesh.middela"
+            },
+            "verification": {
+                "verified": false,
+                "reason": "gpg.error.not_signed_commit",
+                "signature": "",
+                "signer": null,
+                "payload": ""
+            },
+            "timestamp": "2024-02-26T14:22:29+05:30",
+            "added": null,
+            "removed": null,
+            "modified": null
+        },
+        "protected": false,
+        "required_approvals": 0,
+        "enable_status_check": false,
+        "status_check_contexts": [
+            
+        ],
+        "user_can_push": true,
+        "user_can_merge": true,
+        "effective_branch_protection_name": ""
+    },
+    {
+        "name": "swagger_headertoken",
+        "commit": {
+            "id": "7c02ceb69ada4b4dac5c1981922f0a535ef75a24",
+            "message": "working on bug fixing in swagger header token\n",
+            "url": "http://localhost:3000/OJAS/oneable-productivity/commit/7c02ceb69ada4b4dac5c1981922f0a535ef75a24",
+            "author": {
+                "name": "Anusha Jagary",
+                "email": "63fb3cba2c98d40e3207c940@1able.ai",
+                "username": ""
+            },
+            "committer": {
+                "name": "Anusha Jagary",
+                "email": "63fb3cba2c98d40e3207c940@1able.ai",
+                "username": ""
+            },
+            "verification": {
+                "verified": false,
+                "reason": "gpg.error.not_signed_commit",
+                "signature": "",
+                "signer": null,
+                "payload": ""
+            },
+            "timestamp": "2024-02-26T10:35:03+05:30",
+            "added": null,
+            "removed": null,
+            "modified": null
+        },
+        "protected": false,
+        "required_approvals": 0,
+        "enable_status_check": false,
+        "status_check_contexts": [
+            
+        ],
+        "user_can_push": true,
+        "user_can_merge": true,
+        "effective_branch_protection_name": ""
+    }
+]  

@@ -1,0 +1,9 @@
+[14:21:19,738 INFO][c.O.R.L.LoginUser.user_logins_login_api_with_post_http_request] The statuscode is HTTP/1.1 200   
+[14:21:19,759 INFO][c.O.R.L.LoginUser.user_logins_login_api_with_post_http_request] The Response  is {
+    "message": "Token token generated successfully for user : Navyadeepthi",
+    "data": {
+        "username": "Navyadeepthi",
+        "accessToken": "0f114d96e0734809ba1c01453d6cc59c"
+    }
+}  
+[14:21:19,760 INFO][c.O.R.L.LoginUser.in_the_response_body_is] The statuscode is 200  

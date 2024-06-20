@@ -1,0 +1,42 @@
+[14:21:29,198 INFO][c.O.R.J.S.GetOrganzationRepoDeatails.user_send_get_request_using_get_organization_repo_details_api] The status Code Is :HTTP/1.1 200   
+[14:21:29,202 INFO][c.O.R.J.S.GetOrganzationRepoDeatails.user_send_get_request_using_get_organization_repo_details_api] The response is:{
+    "type": "workspace",
+    "uuid": "{7a2e467c-db26-413c-bda8-6d07a903b34b}",
+    "name": "ojasonable",
+    "slug": "ojasonable",
+    "is_private": true,
+    "links": {
+        "avatar": {
+            "href": "https://bitbucket.org/workspaces/ojasonable/avatar/?ts=1687760923"
+        },
+        "hooks": {
+            "href": "https://api.bitbucket.org/2.0/workspaces/ojasonable/hooks"
+        },
+        "html": {
+            "href": "https://bitbucket.org/ojasonable/"
+        },
+        "html_overview": {
+            "href": "https://bitbucket.org/ojasonable/workspace/overview/"
+        },
+        "members": {
+            "href": "https://api.bitbucket.org/2.0/workspaces/ojasonable/members"
+        },
+        "owners": {
+            "href": "https://api.bitbucket.org/2.0/workspaces/ojasonable/members?q=permission%3D%22owner%22"
+        },
+        "projects": {
+            "href": "https://api.bitbucket.org/2.0/workspaces/ojasonable/projects"
+        },
+        "repositories": {
+            "href": "https://api.bitbucket.org/2.0/repositories/ojasonable"
+        },
+        "snippets": {
+            "href": "https://api.bitbucket.org/2.0/snippets/ojasonable"
+        },
+        "self": {
+            "href": "https://api.bitbucket.org/2.0/workspaces/ojasonable"
+        }
+    },
+    "created_on": "2023-06-26T06:28:42.905860+00:00"
+}  
+[14:21:29,204 INFO][c.O.R.J.S.GetOrganzationRepoDeatails.validate_the_response_body_from_get_organization_repo_details_scenario] The response body is:{"type":"workspace","uuid":"{7a2e467c-db26-413c-bda8-6d07a903b34b}","name":"ojasonable","slug":"ojasonable","is_private":true,"links":{"avatar":{"href":"https://bitbucket.org/workspaces/ojasonable/avatar/?ts=1687760923"},"hooks":{"href":"https://api.bitbucket.org/2.0/workspaces/ojasonable/hooks"},"html":{"href":"https://bitbucket.org/ojasonable/"},"html_overview":{"href":"https://bitbucket.org/ojasonable/workspace/overview/"},"members":{"href":"https://api.bitbucket.org/2.0/workspaces/ojasonable/members"},"owners":{"href":"https://api.bitbucket.org/2.0/workspaces/ojasonable/members?q=permission%3D%22owner%22"},"projects":{"href":"https://api.bitbucket.org/2.0/workspaces/ojasonable/projects"},"repositories":{"href":"https://api.bitbucket.org/2.0/repositories/ojasonable"},"snippets":{"href":"https://api.bitbucket.org/2.0/snippets/ojasonable"},"self":{"href":"https://api.bitbucket.org/2.0/workspaces/ojasonable"}},"created_on":"2023-06-26T06:28:42.905860+00:00"}  

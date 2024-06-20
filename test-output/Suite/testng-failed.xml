@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.Oneable.RestAssured.GiteaApi.StepDefintion.Getuserdetails">
+        <methods>
+          <include name="the_response_status_code_is"/>
+          <include name="i_send_a_get_request_to_the_api"/>
+          <include name="the_response_should_be_contain_user_data"/>
+        </methods>
+      </class> <!-- com.Oneable.RestAssured.GiteaApi.StepDefintion.Getuserdetails -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

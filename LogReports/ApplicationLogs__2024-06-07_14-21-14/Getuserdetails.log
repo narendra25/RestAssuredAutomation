@@ -1,0 +1,2493 @@
+[14:21:51,113 INFO][c.O.R.G.S.Getuserdetails.i_send_a_get_request_to_the_get_user_detail_api] API Base URL IS: http://10.10.28.32:8098  
+[14:21:51,115 INFO][c.O.R.G.S.Getuserdetails.i_send_a_get_request_to_the_get_user_detail_api] API URL Is: http://10.10.28.32:8098/gitea/user/ojas/oneable-productivity/shivaprasad.kalyan  
+[14:21:51,116 INFO][c.O.R.G.S.Getuserdetails.i_send_a_get_request_to_the_get_user_detail_api] The Status Code Is  :HTTP/1.1 200   
+[14:21:51,116 INFO][c.O.R.G.S.Getuserdetails.i_send_a_get_request_to_the_get_user_detail_api] The Status Code Is  :[Vary=Origin, Vary=Access-Control-Request-Method, Vary=Access-Control-Request-Headers, Content-Disposition=inline;filename=f.txt, X-Content-Type-Options=nosniff, X-XSS-Protection=0, Cache-Control=no-cache, no-store, max-age=0, must-revalidate, Pragma=no-cache, Expires=0, X-Frame-Options=DENY, Content-Type=text/plain;charset=UTF-8, Content-Length=32080, Date=Fri, 07 Jun 2024 08:52:00 GMT, Keep-Alive=timeout=60, Connection=keep-alive]  
+[14:21:51,143 INFO][c.O.R.G.S.Getuserdetails.i_send_a_get_request_to_the_get_user_detail_api] The Body is Pretty print :[
+    [
+        {
+            "url": "http://localhost:3000/api/v1/repos/OJAS/oneable-productivity/git/commits/002de1740ddf5392ec214669eb85a0d717c83e94",
+            "sha": "002de1740ddf5392ec214669eb85a0d717c83e94",
+            "created": "2024-05-15T16:08:35+05:30",
+            "html_url": "http://localhost:3000/OJAS/oneable-productivity/commit/002de1740ddf5392ec214669eb85a0d717c83e94",
+            "commit": {
+                "url": "http://localhost:3000/api/v1/repos/OJAS/oneable-productivity/git/commits/002de1740ddf5392ec214669eb85a0d717c83e94",
+                "author": {
+                    "name": "shivaprasadkalyan",
+                    "email": "shivaprasad.kalyan@ojas-it.com",
+                    "date": "2024-05-15T16:08:35+05:30"
+                },
+                "committer": {
+                    "name": "shivaprasadkalyan",
+                    "email": "shivaprasad.kalyan@ojas-it.com",
+                    "date": "2024-05-15T16:08:35+05:30"
+                },
+                "message": "Api tests added\n",
+                "tree": {
+                    "url": "http://localhost:3000/api/v1/repos/OJAS/oneable-productivity/git/trees/002de1740ddf5392ec214669eb85a0d717c83e94",
+                    "sha": "002de1740ddf5392ec214669eb85a0d717c83e94",
+                    "created": "2024-05-15T16:08:35+05:30"
+                },
+                "verification": {
+                    "verified": false,
+                    "reason": "gpg.error.not_signed_commit",
+                    "signature": "",
+                    "signer": null,
+                    "payload": ""
+                }
+            },
+            "author": {
+                "id": 3,
+                "login": "shivaprasad.kalyan",
+                "login_name": "",
+                "full_name": "",
+                "email": "shivaprasad.kalyan@noreply.localhost",
+                "avatar_url": "http://localhost:3000/avatar/bccd14ba07203e45d198eade5f4bbfd9",
+                "language": "",
+                "is_admin": false,
+                "last_login": "0001-01-01T00:00:00Z",
+                "created": "2024-01-25T14:08:04+05:30",
+                "restricted": false,
+                "active": false,
+                "prohibit_login": false,
+                "location": "",
+                "website": "",
+                "description": "",
+                "visibility": "public",
+                "followers_count": 0,
+                "following_count": 0,
+                "starred_repos_count": 0,
+                "username": "shivaprasad.kalyan"
+            },
+            "committer": {
+                "id": 3,
+                "login": "shivaprasad.kalyan",
+                "login_name": "",
+                "full_name": "",
+                "email": "shivaprasad.kalyan@noreply.localhost",
+                "avatar_url": "http://localhost:3000/avatar/bccd14ba07203e45d198eade5f4bbfd9",
+                "language": "",
+                "is_admin": false,
+                "last_login": "0001-01-01T00:00:00Z",
+                "created": "2024-01-25T14:08:04+05:30",
+                "restricted": false,
+                "active": false,
+                "prohibit_login": false,
+                "location": "",
+                "website": "",
+                "description": "",
+                "visibility": "public",
+                "followers_count": 0,
+                "following_count": 0,
+                "starred_repos_count": 0,
+                "username": "shivaprasad.kalyan"
+            },
+            "parents": [
+                {
+                    "url": "http://localhost:3000/api/v1/repos/OJAS/oneable-productivity/git/commits/c2d48fa63e106a0fc6a737e0954f9378846ac18c",
+                    "sha": "c2d48fa63e106a0fc6a737e0954f9378846ac18c",
+                    "created": "0001-01-01T00:00:00Z"
+                }
+            ],
+            "files": [
+                {
+                    "filename": "Api_Tests/Oneable Copy.postman_collection.json",
+                    "status": "added"
+                }
+            ],
+            "stats": {
+                "total": 705,
+                "additions": 705,
+                "deletions": 0
+            }
+        },
+        {
+            "url": "http://localhost:3000/api/v1/repos/OJAS/oneable-productivity/git/commits/9a8df81ae630790f4c4612a2ff6d2b6a2bc26f40",
+            "sha": "9a8df81ae630790f4c4612a2ff6d2b6a2bc26f40",
+            "created": "2024-04-12T17:31:02+05:30",
+            "html_url": "http://localhost:3000/OJAS/oneable-productivity/commit/9a8df81ae630790f4c4612a2ff6d2b6a2bc26f40",
+            "commit": {
+                "url": "http://localhost:3000/api/v1/repos/OJAS/oneable-productivity/git/commits/9a8df81ae630790f4c4612a2ff6d2b6a2bc26f40",
+                "author": {
+                    "name": "shivaprasadkalyan",
+                    "email": "shivaprasad.kalyan@ojas-it.com",
+                    "date": "2024-04-12T17:31:02+05:30"
+                },
+                "committer": {
+                    "name": "shivaprasadkalyan",
+                    "email": "shivaprasad.kalyan@ojas-it.com",
+                    "date": "2024-04-12T17:31:02+05:30"
+                },
+                "message": "latest modification for Logging Handler (exception is handled) and message bundle file\n",
+                "tree": {
+                    "url": "http://localhost:3000/api/v1/repos/OJAS/oneable-productivity/git/trees/9a8df81ae630790f4c4612a2ff6d2b6a2bc26f40",
+                    "sha": "9a8df81ae630790f4c4612a2ff6d2b6a2bc26f40",
+                    "created": "2024-04-12T17:31:02+05:30"
+                },
+                "verification": {
+                    "verified": false,
+                    "reason": "gpg.error.not_signed_commit",
+                    "signature": "",
+                    "signer": null,
+                    "payload": ""
+                }
+            },
+            "author": {
+                "id": 3,
+                "login": "shivaprasad.kalyan",
+                "login_name": "",
+                "full_name": "",
+                "email": "shivaprasad.kalyan@noreply.localhost",
+                "avatar_url": "http://localhost:3000/avatar/bccd14ba07203e45d198eade5f4bbfd9",
+                "language": "",
+                "is_admin": false,
+                "last_login": "0001-01-01T00:00:00Z",
+                "created": "2024-01-25T14:08:04+05:30",
+                "restricted": false,
+                "active": false,
+                "prohibit_login": false,
+                "location": "",
+                "website": "",
+                "description": "",
+                "visibility": "public",
+                "followers_count": 0,
+                "following_count": 0,
+                "starred_repos_count": 0,
+                "username": "shivaprasad.kalyan"
+            },
+            "committer": {
+                "id": 3,
+                "login": "shivaprasad.kalyan",
+                "login_name": "",
+                "full_name": "",
+                "email": "shivaprasad.kalyan@noreply.localhost",
+                "avatar_url": "http://localhost:3000/avatar/bccd14ba07203e45d198eade5f4bbfd9",
+                "language": "",
+                "is_admin": false,
+                "last_login": "0001-01-01T00:00:00Z",
+                "created": "2024-01-25T14:08:04+05:30",
+                "restricted": false,
+                "active": false,
+                "prohibit_login": false,
+                "location": "",
+                "website": "",
+                "description": "",
+                "visibility": "public",
+                "followers_count": 0,
+                "following_count": 0,
+                "starred_repos_count": 0,
+                "username": "shivaprasad.kalyan"
+            },
+            "parents": [
+                {
+                    "url": "http://localhost:3000/api/v1/repos/OJAS/oneable-productivity/git/commits/15b8ddb75d1f4fb52f6928d5de9dfb635a0c1618",
+                    "sha": "15b8ddb75d1f4fb52f6928d5de9dfb635a0c1618",
+                    "created": "0001-01-01T00:00:00Z"
+                }
+            ],
+            "files": [
+                {
+                    "filename": "src/main/java/com/oneable/handler/LoggingHandler.java",
+                    "status": "modified"
+                },
+                {
+                    "filename": "src/main/resources/messages.properties",
+                    "status": "modified"
+                }
+            ],
+            "stats": {
+                "total": 9,
+                "additions": 7,
+                "deletions": 2
+            }
+        },
+        {
+            "url": "http://localhost:3000/api/v1/repos/OJAS/oneable-productivity/git/commits/15b8ddb75d1f4fb52f6928d5de9dfb635a0c1618",
+            "sha": "15b8ddb75d1f4fb52f6928d5de9dfb635a0c1618",
+            "created": "2024-04-12T16:43:45+05:30",
+            "html_url": "http://localhost:3000/OJAS/oneable-productivity/commit/15b8ddb75d1f4fb52f6928d5de9dfb635a0c1618",
+            "commit": {
+                "url": "http://localhost:3000/api/v1/repos/OJAS/oneable-productivity/git/commits/15b8ddb75d1f4fb52f6928d5de9dfb635a0c1618",
+                "author": {
+                    "name": "shivaprasadkalyan",
+                    "email": "shivaprasad.kalyan@ojas-it.com",
+                    "date": "2024-04-12T16:43:45+05:30"
+                },
+                "committer": {
+                    "name": "shivaprasadkalyan",
+                    "email": "shivaprasad.kalyan@ojas-it.com",
+                    "date": "2024-04-12T16:43:45+05:30"
+                },
+                "message": "latest update for messages\n",
+                "tree": {
+                    "url": "http://localhost:3000/api/v1/repos/OJAS/oneable-productivity/git/trees/15b8ddb75d1f4fb52f6928d5de9dfb635a0c1618",
+                    "sha": "15b8ddb75d1f4fb52f6928d5de9dfb635a0c1618",
+                    "created": "2024-04-12T16:43:45+05:30"
+                },
+                "verification": {
+                    "verified": false,
+                    "reason": "gpg.error.not_signed_commit",
+                    "signature": "",
+                    "signer": null,
+                    "payload": ""
+                }
+            },
+            "author": {
+                "id": 3,
+                "login": "shivaprasad.kalyan",
+                "login_name": "",
+                "full_name": "",
+                "email": "shivaprasad.kalyan@noreply.localhost",
+                "avatar_url": "http://localhost:3000/avatar/bccd14ba07203e45d198eade5f4bbfd9",
+                "language": "",
+                "is_admin": false,
+                "last_login": "0001-01-01T00:00:00Z",
+                "created": "2024-01-25T14:08:04+05:30",
+                "restricted": false,
+                "active": false,
+                "prohibit_login": false,
+                "location": "",
+                "website": "",
+                "description": "",
+                "visibility": "public",
+                "followers_count": 0,
+                "following_count": 0,
+                "starred_repos_count": 0,
+                "username": "shivaprasad.kalyan"
+            },
+            "committer": {
+                "id": 3,
+                "login": "shivaprasad.kalyan",
+                "login_name": "",
+                "full_name": "",
+                "email": "shivaprasad.kalyan@noreply.localhost",
+                "avatar_url": "http://localhost:3000/avatar/bccd14ba07203e45d198eade5f4bbfd9",
+                "language": "",
+                "is_admin": false,
+                "last_login": "0001-01-01T00:00:00Z",
+                "created": "2024-01-25T14:08:04+05:30",
+                "restricted": false,
+                "active": false,
+                "prohibit_login": false,
+                "location": "",
+                "website": "",
+                "description": "",
+                "visibility": "public",
+                "followers_count": 0,
+                "following_count": 0,
+                "starred_repos_count": 0,
+                "username": "shivaprasad.kalyan"
+            },
+            "parents": [
+                {
+                    "url": "http://localhost:3000/api/v1/repos/OJAS/oneable-productivity/git/commits/225037d692a1a23d4afc98fb99d0c2ebe50e35a6",
+                    "sha": "225037d692a1a23d4afc98fb99d0c2ebe50e35a6",
+                    "created": "0001-01-01T00:00:00Z"
+                }
+            ],
+            "files": [
+                {
+                    "filename": "src/main/resources/application.yml",
+                    "status": "modified"
+                },
+                {
+                    "filename": "src/main/resources/messages.properties",
+                    "status": "modified"
+                }
+            ],
+            "stats": {
+                "total": 8,
+                "additions": 2,
+                "deletions": 6
+            }
+        },
+        {
+            "url": "http://localhost:3000/api/v1/repos/OJAS/oneable-productivity/git/commits/225037d692a1a23d4afc98fb99d0c2ebe50e35a6",
+            "sha": "225037d692a1a23d4afc98fb99d0c2ebe50e35a6",
+            "created": "2024-04-12T14:49:15+05:30",
+            "html_url": "http://localhost:3000/OJAS/oneable-productivity/commit/225037d692a1a23d4afc98fb99d0c2ebe50e35a6",
+            "commit": {
+                "url": "http://localhost:3000/api/v1/repos/OJAS/oneable-productivity/git/commits/225037d692a1a23d4afc98fb99d0c2ebe50e35a6",
+                "author": {
+                    "name": "shivaprasadkalyan",
+                    "email": "shivaprasad.kalyan@ojas-it.com",
+                    "date": "2024-04-12T14:49:15+05:30"
+                },
+                "committer": {
+                    "name": "shivaprasadkalyan",
+                    "email": "shivaprasad.kalyan@ojas-it.com",
+                    "date": "2024-04-12T14:49:15+05:30"
+                },
+                "message": "added latest merge code by shiva (for user details of GItea account)\n",
+                "tree": {
+                    "url": "http://localhost:3000/api/v1/repos/OJAS/oneable-productivity/git/trees/225037d692a1a23d4afc98fb99d0c2ebe50e35a6",
+                    "sha": "225037d692a1a23d4afc98fb99d0c2ebe50e35a6",
+                    "created": "2024-04-12T14:49:15+05:30"
+                },
+                "verification": {
+                    "verified": false,
+                    "reason": "gpg.error.not_signed_commit",
+                    "signature": "",
+                    "signer": null,
+                    "payload": ""
+                }
+            },
+            "author": {
+                "id": 3,
+                "login": "shivaprasad.kalyan",
+                "login_name": "",
+                "full_name": "",
+                "email": "shivaprasad.kalyan@noreply.localhost",
+                "avatar_url": "http://localhost:3000/avatar/bccd14ba07203e45d198eade5f4bbfd9",
+                "language": "",
+                "is_admin": false,
+                "last_login": "0001-01-01T00:00:00Z",
+                "created": "2024-01-25T14:08:04+05:30",
+                "restricted": false,
+                "active": false,
+                "prohibit_login": false,
+                "location": "",
+                "website": "",
+                "description": "",
+                "visibility": "public",
+                "followers_count": 0,
+                "following_count": 0,
+                "starred_repos_count": 0,
+                "username": "shivaprasad.kalyan"
+            },
+            "committer": {
+                "id": 3,
+                "login": "shivaprasad.kalyan",
+                "login_name": "",
+                "full_name": "",
+                "email": "shivaprasad.kalyan@noreply.localhost",
+                "avatar_url": "http://localhost:3000/avatar/bccd14ba07203e45d198eade5f4bbfd9",
+                "language": "",
+                "is_admin": false,
+                "last_login": "0001-01-01T00:00:00Z",
+                "created": "2024-01-25T14:08:04+05:30",
+                "restricted": false,
+                "active": false,
+                "prohibit_login": false,
+                "location": "",
+                "website": "",
+                "description": "",
+                "visibility": "public",
+                "followers_count": 0,
+                "following_count": 0,
+                "starred_repos_count": 0,
+                "username": "shivaprasad.kalyan"
+            },
+            "parents": [
+                {
+                    "url": "http://localhost:3000/api/v1/repos/OJAS/oneable-productivity/git/commits/3e16acaa9c1de1d49f83975bd273dd9b7f789eba",
+                    "sha": "3e16acaa9c1de1d49f83975bd273dd9b7f789eba",
+                    "created": "0001-01-01T00:00:00Z"
+                },
+                {
+                    "url": "http://localhost:3000/api/v1/repos/OJAS/oneable-productivity/git/commits/1aed0d3e0842810621f0ec01d2eb285b63fb5d32",
+                    "sha": "1aed0d3e0842810621f0ec01d2eb285b63fb5d32",
+                    "created": "0001-01-01T00:00:00Z"
+                }
+            ],
+            "files": [
+                {
+                    "filename": "src/main/resources/github.properties",
+                    "status": "removed"
+                },
+                {
+                    "filename": "src/main/java/com/oneable/bitbucket/BitbucketController.java",
+                    "status": "modified"
+                },
+                {
+                    "filename": "src/main/java/com/oneable/bitbucket/BitbucketService.java",
+                    "status": "modified"
+                },
+                {
+                    "filename": "src/main/java/com/oneable/controller/AuthenticationController.java",
+                    "status": "modified"
+                },
+                {
+                    "filename": "src/main/java/com/oneable/gitea/GiteaRestController.java",
+                    "status": "modified"
+                },
+                {
+                    "filename": "src/main/java/com/oneable/gitea/GiteaRestServiceImpl.java",
+                    "status": "modified"
+                },
+                {
+                    "filename": "src/main/java/com/oneable/github/controller/GHBranchController.java",
+                    "status": "modified"
+                },
+                {
+                    "filename": "src/main/java/com/oneable/github/controller/GHOrgController.java",
+                    "status": "modified"
+                },
+                {
+                    "filename": "src/main/java/com/oneable/github/controller/GHRepoController.java",
+                    "status": "modified"
+                },
+                {
+                    "filename": "src/main/java/com/oneable/github/controller/GHUserController.java",
+                    "status": "modified"
+                },
+                {
+                    "filename": "src/main/java/com/oneable/jira/JiraIntegrationController.java",
+                    "status": "modified"
+                },
+                {
+                    "filename": "src/main/java/com/oneable/jira/JiraIntegrationService.java",
+                    "status": "modified"
+                },
+                {
+                    "filename": "src/main/java/com/oneable/teams/TeamsController.java",
+                    "status": "modified"
+                },
+                {
+                    "filename": "src/main/java/com/oneable/teams/TeamsMeetingService.java",
+                    "status": "modified"
+                },
+                {
+                    "filename": "src/main/java/com/oneable/teams/TeamsService.java",
+                    "status": "modified"
+                },
+                {
+                    "filename": "src/main/resources/messages.properties",
+                    "status": "modified"
+                }
+            ],
+            "stats": {
+                "total": 628,
+                "additions": 363,
+                "deletions": 265
+            }
+        },
+        {
+            "url": "http://localhost:3000/api/v1/repos/OJAS/oneable-productivity/git/commits/3e16acaa9c1de1d49f83975bd273dd9b7f789eba",
+            "sha": "3e16acaa9c1de1d49f83975bd273dd9b7f789eba",
+            "created": "2024-04-12T14:44:39+05:30",
+            "html_url": "http://localhost:3000/OJAS/oneable-productivity/commit/3e16acaa9c1de1d49f83975bd273dd9b7f789eba",
+            "commit": {
+                "url": "http://localhost:3000/api/v1/repos/OJAS/oneable-productivity/git/commits/3e16acaa9c1de1d49f83975bd273dd9b7f789eba",
+                "author": {
+                    "name": "shivaprasadkalyan",
+                    "email": "shivaprasad.kalyan@ojas-it.com",
+                    "date": "2024-04-12T14:44:39+05:30"
+                },
+                "committer": {
+                    "name": "shivaprasadkalyan",
+                    "email": "shivaprasad.kalyan@ojas-it.com",
+                    "date": "2024-04-12T14:44:39+05:30"
+                },
+                "message": "config class modified\n",
+                "tree": {
+                    "url": "http://localhost:3000/api/v1/repos/OJAS/oneable-productivity/git/trees/3e16acaa9c1de1d49f83975bd273dd9b7f789eba",
+                    "sha": "3e16acaa9c1de1d49f83975bd273dd9b7f789eba",
+                    "created": "2024-04-12T14:44:39+05:30"
+                },
+                "verification": {
+                    "verified": false,
+                    "reason": "gpg.error.not_signed_commit",
+                    "signature": "",
+                    "signer": null,
+                    "payload": ""
+                }
+            },
+            "author": {
+                "id": 3,
+                "login": "shivaprasad.kalyan",
+                "login_name": "",
+                "full_name": "",
+                "email": "shivaprasad.kalyan@noreply.localhost",
+                "avatar_url": "http://localhost:3000/avatar/bccd14ba07203e45d198eade5f4bbfd9",
+                "language": "",
+                "is_admin": false,
+                "last_login": "0001-01-01T00:00:00Z",
+                "created": "2024-01-25T14:08:04+05:30",
+                "restricted": false,
+                "active": false,
+                "prohibit_login": false,
+                "location": "",
+                "website": "",
+                "description": "",
+                "visibility": "public",
+                "followers_count": 0,
+                "following_count": 0,
+                "starred_repos_count": 0,
+                "username": "shivaprasad.kalyan"
+            },
+            "committer": {
+                "id": 3,
+                "login": "shivaprasad.kalyan",
+                "login_name": "",
+                "full_name": "",
+                "email": "shivaprasad.kalyan@noreply.localhost",
+                "avatar_url": "http://localhost:3000/avatar/bccd14ba07203e45d198eade5f4bbfd9",
+                "language": "",
+                "is_admin": false,
+                "last_login": "0001-01-01T00:00:00Z",
+                "created": "2024-01-25T14:08:04+05:30",
+                "restricted": false,
+                "active": false,
+                "prohibit_login": false,
+                "location": "",
+                "website": "",
+                "description": "",
+                "visibility": "public",
+                "followers_count": 0,
+                "following_count": 0,
+                "starred_repos_count": 0,
+                "username": "shivaprasad.kalyan"
+            },
+            "parents": [
+                {
+                    "url": "http://localhost:3000/api/v1/repos/OJAS/oneable-productivity/git/commits/1be72ba88f8e11aa5aae8c862ae0003d9110bdf8",
+                    "sha": "1be72ba88f8e11aa5aae8c862ae0003d9110bdf8",
+                    "created": "0001-01-01T00:00:00Z"
+                }
+            ],
+            "files": [
+                {
+                    "filename": "src/main/resources/logback-spring.xml",
+                    "status": "modified"
+                }
+            ],
+            "stats": {
+                "total": 8,
+                "additions": 0,
+                "deletions": 8
+            }
+        },
+        {
+            "url": "http://localhost:3000/api/v1/repos/OJAS/oneable-productivity/git/commits/1aed0d3e0842810621f0ec01d2eb285b63fb5d32",
+            "sha": "1aed0d3e0842810621f0ec01d2eb285b63fb5d32",
+            "created": "2024-04-12T14:29:48+05:30",
+            "html_url": "http://localhost:3000/OJAS/oneable-productivity/commit/1aed0d3e0842810621f0ec01d2eb285b63fb5d32",
+            "commit": {
+                "url": "http://localhost:3000/api/v1/repos/OJAS/oneable-productivity/git/commits/1aed0d3e0842810621f0ec01d2eb285b63fb5d32",
+                "author": {
+                    "name": "shivaprasad.kalyan",
+                    "email": "shivaprasad.kalyan@ojas-it.com",
+                    "date": "2024-04-12T14:29:48+05:30"
+                },
+                "committer": {
+                    "name": "shivaprasad.kalyan",
+                    "email": "shivaprasad.kalyan@ojas-it.com",
+                    "date": "2024-04-12T14:29:48+05:30"
+                },
+                "message": "Merge pull request 'InternalizationOutput' (#56) from InternalizationOutput into main\n\nReviewed-on: http://localhost:3000/OJAS/oneable-productivity/pulls/56\n",
+                "tree": {
+                    "url": "http://localhost:3000/api/v1/repos/OJAS/oneable-productivity/git/trees/1aed0d3e0842810621f0ec01d2eb285b63fb5d32",
+                    "sha": "1aed0d3e0842810621f0ec01d2eb285b63fb5d32",
+                    "created": "2024-04-12T14:29:48+05:30"
+                },
+                "verification": {
+                    "verified": false,
+                    "reason": "gpg.error.not_signed_commit",
+                    "signature": "",
+                    "signer": null,
+                    "payload": ""
+                }
+            },
+            "author": {
+                "id": 3,
+                "login": "shivaprasad.kalyan",
+                "login_name": "",
+                "full_name": "",
+                "email": "shivaprasad.kalyan@noreply.localhost",
+                "avatar_url": "http://localhost:3000/avatar/bccd14ba07203e45d198eade5f4bbfd9",
+                "language": "",
+                "is_admin": false,
+                "last_login": "0001-01-01T00:00:00Z",
+                "created": "2024-01-25T14:08:04+05:30",
+                "restricted": false,
+                "active": false,
+                "prohibit_login": false,
+                "location": "",
+                "website": "",
+                "description": "",
+                "visibility": "public",
+                "followers_count": 0,
+                "following_count": 0,
+                "starred_repos_count": 0,
+                "username": "shivaprasad.kalyan"
+            },
+            "committer": {
+                "id": 3,
+                "login": "shivaprasad.kalyan",
+                "login_name": "",
+                "full_name": "",
+                "email": "shivaprasad.kalyan@noreply.localhost",
+                "avatar_url": "http://localhost:3000/avatar/bccd14ba07203e45d198eade5f4bbfd9",
+                "language": "",
+                "is_admin": false,
+                "last_login": "0001-01-01T00:00:00Z",
+                "created": "2024-01-25T14:08:04+05:30",
+                "restricted": false,
+                "active": false,
+                "prohibit_login": false,
+                "location": "",
+                "website": "",
+                "description": "",
+                "visibility": "public",
+                "followers_count": 0,
+                "following_count": 0,
+                "starred_repos_count": 0,
+                "username": "shivaprasad.kalyan"
+            },
+            "parents": [
+                {
+                    "url": "http://localhost:3000/api/v1/repos/OJAS/oneable-productivity/git/commits/62fe2dc63c66332934a26b8051c4d60c4ee5fc5c",
+                    "sha": "62fe2dc63c66332934a26b8051c4d60c4ee5fc5c",
+                    "created": "0001-01-01T00:00:00Z"
+                },
+                {
+                    "url": "http://localhost:3000/api/v1/repos/OJAS/oneable-productivity/git/commits/51581a0e309bc7fe76bfcf0b760739ebd2466e4f",
+                    "sha": "51581a0e309bc7fe76bfcf0b760739ebd2466e4f",
+                    "created": "0001-01-01T00:00:00Z"
+                }
+            ],
+            "files": [
+                {
+                    "filename": "src/main/resources/github.properties",
+                    "status": "removed"
+                },
+                {
+                    "filename": "src/main/java/com/oneable/bitbucket/BitbucketController.java",
+                    "status": "modified"
+                },
+                {
+                    "filename": "src/main/java/com/oneable/bitbucket/BitbucketService.java",
+                    "status": "modified"
+                },
+                {
+                    "filename": "src/main/java/com/oneable/controller/AuthenticationController.java",
+                    "status": "modified"
+                },
+                {
+                    "filename": "src/main/java/com/oneable/gitea/GiteaRestController.java",
+                    "status": "modified"
+                },
+                {
+                    "filename": "src/main/java/com/oneable/gitea/GiteaRestServiceImpl.java",
+                    "status": "modified"
+                },
+                {
+                    "filename": "src/main/java/com/oneable/github/controller/GHBranchController.java",
+                    "status": "modified"
+                },
+                {
+                    "filename": "src/main/java/com/oneable/github/controller/GHOrgController.java",
+                    "status": "modified"
+                },
+                {
+                    "filename": "src/main/java/com/oneable/github/controller/GHRepoController.java",
+                    "status": "modified"
+                },
+                {
+                    "filename": "src/main/java/com/oneable/github/controller/GHUserController.java",
+                    "status": "modified"
+                },
+                {
+                    "filename": "src/main/java/com/oneable/jira/JiraIntegrationController.java",
+                    "status": "modified"
+                },
+                {
+                    "filename": "src/main/java/com/oneable/jira/JiraIntegrationService.java",
+                    "status": "modified"
+                },
+                {
+                    "filename": "src/main/java/com/oneable/teams/TeamsController.java",
+                    "status": "modified"
+                },
+                {
+                    "filename": "src/main/java/com/oneable/teams/TeamsMeetingService.java",
+                    "status": "modified"
+                },
+                {
+                    "filename": "src/main/java/com/oneable/teams/TeamsService.java",
+                    "status": "modified"
+                },
+                {
+                    "filename": "src/main/resources/messages.properties",
+                    "status": "modified"
+                }
+            ],
+            "stats": {
+                "total": 622,
+                "additions": 360,
+                "deletions": 262
+            }
+        },
+        {
+            "url": "http://localhost:3000/api/v1/repos/OJAS/oneable-productivity/git/commits/1be72ba88f8e11aa5aae8c862ae0003d9110bdf8",
+            "sha": "1be72ba88f8e11aa5aae8c862ae0003d9110bdf8",
+            "created": "2024-04-11T12:23:02+05:30",
+            "html_url": "http://localhost:3000/OJAS/oneable-productivity/commit/1be72ba88f8e11aa5aae8c862ae0003d9110bdf8",
+            "commit": {
+                "url": "http://localhost:3000/api/v1/repos/OJAS/oneable-productivity/git/commits/1be72ba88f8e11aa5aae8c862ae0003d9110bdf8",
+                "author": {
+                    "name": "shivaprasadkalyan",
+                    "email": "shivaprasad.kalyan@ojas-it.com",
+                    "date": "2024-04-11T12:23:02+05:30"
+                },
+                "committer": {
+                    "name": "shivaprasadkalyan",
+                    "email": "shivaprasad.kalyan@ojas-it.com",
+                    "date": "2024-04-11T12:23:02+05:30"
+                },
+                "message": "removed log files\n",
+                "tree": {
+                    "url": "http://localhost:3000/api/v1/repos/OJAS/oneable-productivity/git/trees/1be72ba88f8e11aa5aae8c862ae0003d9110bdf8",
+                    "sha": "1be72ba88f8e11aa5aae8c862ae0003d9110bdf8",
+                    "created": "2024-04-11T12:23:02+05:30"
+                },
+                "verification": {
+                    "verified": false,
+                    "reason": "gpg.error.not_signed_commit",
+                    "signature": "",
+                    "signer": null,
+                    "payload": ""
+                }
+            },
+            "author": {
+                "id": 3,
+                "login": "shivaprasad.kalyan",
+                "login_name": "",
+                "full_name": "",
+                "email": "shivaprasad.kalyan@noreply.localhost",
+                "avatar_url": "http://localhost:3000/avatar/bccd14ba07203e45d198eade5f4bbfd9",
+                "language": "",
+                "is_admin": false,
+                "last_login": "0001-01-01T00:00:00Z",
+                "created": "2024-01-25T14:08:04+05:30",
+                "restricted": false,
+                "active": false,
+                "prohibit_login": false,
+                "location": "",
+                "website": "",
+                "description": "",
+                "visibility": "public",
+                "followers_count": 0,
+                "following_count": 0,
+                "starred_repos_count": 0,
+                "username": "shivaprasad.kalyan"
+            },
+            "committer": {
+                "id": 3,
+                "login": "shivaprasad.kalyan",
+                "login_name": "",
+                "full_name": "",
+                "email": "shivaprasad.kalyan@noreply.localhost",
+                "avatar_url": "http://localhost:3000/avatar/bccd14ba07203e45d198eade5f4bbfd9",
+                "language": "",
+                "is_admin": false,
+                "last_login": "0001-01-01T00:00:00Z",
+                "created": "2024-01-25T14:08:04+05:30",
+                "restricted": false,
+                "active": false,
+                "prohibit_login": false,
+                "location": "",
+                "website": "",
+                "description": "",
+                "visibility": "public",
+                "followers_count": 0,
+                "following_count": 0,
+                "starred_repos_count": 0,
+                "username": "shivaprasad.kalyan"
+            },
+            "parents": [
+                {
+                    "url": "http://localhost:3000/api/v1/repos/OJAS/oneable-productivity/git/commits/db37a0cd73d3185f0e8176c64f2f66149e6c1f52",
+                    "sha": "db37a0cd73d3185f0e8176c64f2f66149e6c1f52",
+                    "created": "0001-01-01T00:00:00Z"
+                }
+            ],
+            "files": [
+                {
+                    "filename": "logs/aop-centralized-logging.log",
+                    "status": "removed"
+                },
+                {
+                    "filename": "logs/archived/aop-centralized-logging-2024-04-04-[0].log",
+                    "status": "removed"
+                }
+            ],
+            "stats": {
+                "total": 1904,
+                "additions": 0,
+                "deletions": 1904
+            }
+        },
+        {
+            "url": "http://localhost:3000/api/v1/repos/OJAS/oneable-productivity/git/commits/db37a0cd73d3185f0e8176c64f2f66149e6c1f52",
+            "sha": "db37a0cd73d3185f0e8176c64f2f66149e6c1f52",
+            "created": "2024-04-11T10:44:47+05:30",
+            "html_url": "http://localhost:3000/OJAS/oneable-productivity/commit/db37a0cd73d3185f0e8176c64f2f66149e6c1f52",
+            "commit": {
+                "url": "http://localhost:3000/api/v1/repos/OJAS/oneable-productivity/git/commits/db37a0cd73d3185f0e8176c64f2f66149e6c1f52",
+                "author": {
+                    "name": "shivaprasadkalyan",
+                    "email": "shivaprasad.kalyan@ojas-it.com",
+                    "date": "2024-04-11T10:44:47+05:30"
+                },
+                "committer": {
+                    "name": "shivaprasadkalyan",
+                    "email": "shivaprasad.kalyan@ojas-it.com",
+                    "date": "2024-04-11T10:44:47+05:30"
+                },
+                "message": "deleted unnecessary file\n",
+                "tree": {
+                    "url": "http://localhost:3000/api/v1/repos/OJAS/oneable-productivity/git/trees/db37a0cd73d3185f0e8176c64f2f66149e6c1f52",
+                    "sha": "db37a0cd73d3185f0e8176c64f2f66149e6c1f52",
+                    "created": "2024-04-11T10:44:47+05:30"
+                },
+                "verification": {
+                    "verified": false,
+                    "reason": "gpg.error.not_signed_commit",
+                    "signature": "",
+                    "signer": null,
+                    "payload": ""
+                }
+            },
+            "author": {
+                "id": 3,
+                "login": "shivaprasad.kalyan",
+                "login_name": "",
+                "full_name": "",
+                "email": "shivaprasad.kalyan@noreply.localhost",
+                "avatar_url": "http://localhost:3000/avatar/bccd14ba07203e45d198eade5f4bbfd9",
+                "language": "",
+                "is_admin": false,
+                "last_login": "0001-01-01T00:00:00Z",
+                "created": "2024-01-25T14:08:04+05:30",
+                "restricted": false,
+                "active": false,
+                "prohibit_login": false,
+                "location": "",
+                "website": "",
+                "description": "",
+                "visibility": "public",
+                "followers_count": 0,
+                "following_count": 0,
+                "starred_repos_count": 0,
+                "username": "shivaprasad.kalyan"
+            },
+            "committer": {
+                "id": 3,
+                "login": "shivaprasad.kalyan",
+                "login_name": "",
+                "full_name": "",
+                "email": "shivaprasad.kalyan@noreply.localhost",
+                "avatar_url": "http://localhost:3000/avatar/bccd14ba07203e45d198eade5f4bbfd9",
+                "language": "",
+                "is_admin": false,
+                "last_login": "0001-01-01T00:00:00Z",
+                "created": "2024-01-25T14:08:04+05:30",
+                "restricted": false,
+                "active": false,
+                "prohibit_login": false,
+                "location": "",
+                "website": "",
+                "description": "",
+                "visibility": "public",
+                "followers_count": 0,
+                "following_count": 0,
+                "starred_repos_count": 0,
+                "username": "shivaprasad.kalyan"
+            },
+            "parents": [
+                {
+                    "url": "http://localhost:3000/api/v1/repos/OJAS/oneable-productivity/git/commits/201fc261ba1325c62ac102f9590ec9aab7bf92ec",
+                    "sha": "201fc261ba1325c62ac102f9590ec9aab7bf92ec",
+                    "created": "0001-01-01T00:00:00Z"
+                }
+            ],
+            "files": [
+                {
+                    "filename": "chat_messages_and_durations.txt",
+                    "status": "removed"
+                },
+                {
+                    "filename": "logs/aop-centralized-logging.log",
+                    "status": "modified"
+                }
+            ],
+            "stats": {
+                "total": 196,
+                "additions": 76,
+                "deletions": 120
+            }
+        },
+        {
+            "url": "http://localhost:3000/api/v1/repos/OJAS/oneable-productivity/git/commits/201fc261ba1325c62ac102f9590ec9aab7bf92ec",
+            "sha": "201fc261ba1325c62ac102f9590ec9aab7bf92ec",
+            "created": "2024-04-11T10:42:04+05:30",
+            "html_url": "http://localhost:3000/OJAS/oneable-productivity/commit/201fc261ba1325c62ac102f9590ec9aab7bf92ec",
+            "commit": {
+                "url": "http://localhost:3000/api/v1/repos/OJAS/oneable-productivity/git/commits/201fc261ba1325c62ac102f9590ec9aab7bf92ec",
+                "author": {
+                    "name": "shivaprasadkalyan",
+                    "email": "shivaprasad.kalyan@ojas-it.com",
+                    "date": "2024-04-11T10:42:04+05:30"
+                },
+                "committer": {
+                    "name": "shivaprasadkalyan",
+                    "email": "shivaprasad.kalyan@ojas-it.com",
+                    "date": "2024-04-11T10:42:04+05:30"
+                },
+                "message": "aop advice added\n",
+                "tree": {
+                    "url": "http://localhost:3000/api/v1/repos/OJAS/oneable-productivity/git/trees/201fc261ba1325c62ac102f9590ec9aab7bf92ec",
+                    "sha": "201fc261ba1325c62ac102f9590ec9aab7bf92ec",
+                    "created": "2024-04-11T10:42:04+05:30"
+                },
+                "verification": {
+                    "verified": false,
+                    "reason": "gpg.error.not_signed_commit",
+                    "signature": "",
+                    "signer": null,
+                    "payload": ""
+                }
+            },
+            "author": {
+                "id": 3,
+                "login": "shivaprasad.kalyan",
+                "login_name": "",
+                "full_name": "",
+                "email": "shivaprasad.kalyan@noreply.localhost",
+                "avatar_url": "http://localhost:3000/avatar/bccd14ba07203e45d198eade5f4bbfd9",
+                "language": "",
+                "is_admin": false,
+                "last_login": "0001-01-01T00:00:00Z",
+                "created": "2024-01-25T14:08:04+05:30",
+                "restricted": false,
+                "active": false,
+                "prohibit_login": false,
+                "location": "",
+                "website": "",
+                "description": "",
+                "visibility": "public",
+                "followers_count": 0,
+                "following_count": 0,
+                "starred_repos_count": 0,
+                "username": "shivaprasad.kalyan"
+            },
+            "committer": {
+                "id": 3,
+                "login": "shivaprasad.kalyan",
+                "login_name": "",
+                "full_name": "",
+                "email": "shivaprasad.kalyan@noreply.localhost",
+                "avatar_url": "http://localhost:3000/avatar/bccd14ba07203e45d198eade5f4bbfd9",
+                "language": "",
+                "is_admin": false,
+                "last_login": "0001-01-01T00:00:00Z",
+                "created": "2024-01-25T14:08:04+05:30",
+                "restricted": false,
+                "active": false,
+                "prohibit_login": false,
+                "location": "",
+                "website": "",
+                "description": "",
+                "visibility": "public",
+                "followers_count": 0,
+                "following_count": 0,
+                "starred_repos_count": 0,
+                "username": "shivaprasad.kalyan"
+            },
+            "parents": [
+                {
+                    "url": "http://localhost:3000/api/v1/repos/OJAS/oneable-productivity/git/commits/14b660d2b181fe9d056c964743366f166a15de7e",
+                    "sha": "14b660d2b181fe9d056c964743366f166a15de7e",
+                    "created": "0001-01-01T00:00:00Z"
+                }
+            ],
+            "files": [
+                {
+                    "filename": "logs/archived/aop-centralized-logging-2024-04-04-[0].log",
+                    "status": "added"
+                },
+                {
+                    "filename": "logs/aop-centralized-logging.log",
+                    "status": "modified"
+                },
+                {
+                    "filename": "src/main/java/com/oneable/handler/LoggingHandler.java",
+                    "status": "modified"
+                },
+                {
+                    "filename": "src/main/resources/application.yml",
+                    "status": "modified"
+                },
+                {
+                    "filename": "src/main/resources/logback-spring.xml",
+                    "status": "modified"
+                }
+            ],
+            "stats": {
+                "total": 2109,
+                "additions": 1862,
+                "deletions": 247
+            }
+        },
+        {
+            "url": "http://localhost:3000/api/v1/repos/OJAS/oneable-productivity/git/commits/14b660d2b181fe9d056c964743366f166a15de7e",
+            "sha": "14b660d2b181fe9d056c964743366f166a15de7e",
+            "created": "2024-04-11T09:47:57+05:30",
+            "html_url": "http://localhost:3000/OJAS/oneable-productivity/commit/14b660d2b181fe9d056c964743366f166a15de7e",
+            "commit": {
+                "url": "http://localhost:3000/api/v1/repos/OJAS/oneable-productivity/git/commits/14b660d2b181fe9d056c964743366f166a15de7e",
+                "author": {
+                    "name": "shivaprasadkalyan",
+                    "email": "shivaprasad.kalyan@ojas-it.com",
+                    "date": "2024-04-11T09:47:57+05:30"
+                },
+                "committer": {
+                    "name": "shivaprasadkalyan",
+                    "email": "shivaprasad.kalyan@ojas-it.com",
+                    "date": "2024-04-11T09:47:57+05:30"
+                },
+                "message": "Merge branch 'main' of http://localhost:3000/OJAS/oneable-productivity into aopLogging\n",
+                "tree": {
+                    "url": "http://localhost:3000/api/v1/repos/OJAS/oneable-productivity/git/trees/14b660d2b181fe9d056c964743366f166a15de7e",
+                    "sha": "14b660d2b181fe9d056c964743366f166a15de7e",
+                    "created": "2024-04-11T09:47:57+05:30"
+                },
+                "verification": {
+                    "verified": false,
+                    "reason": "gpg.error.not_signed_commit",
+                    "signature": "",
+                    "signer": null,
+                    "payload": ""
+                }
+            },
+            "author": {
+                "id": 3,
+                "login": "shivaprasad.kalyan",
+                "login_name": "",
+                "full_name": "",
+                "email": "shivaprasad.kalyan@noreply.localhost",
+                "avatar_url": "http://localhost:3000/avatar/bccd14ba07203e45d198eade5f4bbfd9",
+                "language": "",
+                "is_admin": false,
+                "last_login": "0001-01-01T00:00:00Z",
+                "created": "2024-01-25T14:08:04+05:30",
+                "restricted": false,
+                "active": false,
+                "prohibit_login": false,
+                "location": "",
+                "website": "",
+                "description": "",
+                "visibility": "public",
+                "followers_count": 0,
+                "following_count": 0,
+                "starred_repos_count": 0,
+                "username": "shivaprasad.kalyan"
+            },
+            "committer": {
+                "id": 3,
+                "login": "shivaprasad.kalyan",
+                "login_name": "",
+                "full_name": "",
+                "email": "shivaprasad.kalyan@noreply.localhost",
+                "avatar_url": "http://localhost:3000/avatar/bccd14ba07203e45d198eade5f4bbfd9",
+                "language": "",
+                "is_admin": false,
+                "last_login": "0001-01-01T00:00:00Z",
+                "created": "2024-01-25T14:08:04+05:30",
+                "restricted": false,
+                "active": false,
+                "prohibit_login": false,
+                "location": "",
+                "website": "",
+                "description": "",
+                "visibility": "public",
+                "followers_count": 0,
+                "following_count": 0,
+                "starred_repos_count": 0,
+                "username": "shivaprasad.kalyan"
+            },
+            "parents": [
+                {
+                    "url": "http://localhost:3000/api/v1/repos/OJAS/oneable-productivity/git/commits/a546f5425387c995d46a1943126629d9ffe576ec",
+                    "sha": "a546f5425387c995d46a1943126629d9ffe576ec",
+                    "created": "0001-01-01T00:00:00Z"
+                },
+                {
+                    "url": "http://localhost:3000/api/v1/repos/OJAS/oneable-productivity/git/commits/62fe2dc63c66332934a26b8051c4d60c4ee5fc5c",
+                    "sha": "62fe2dc63c66332934a26b8051c4d60c4ee5fc5c",
+                    "created": "0001-01-01T00:00:00Z"
+                }
+            ],
+            "files": [
+                {
+                    "filename": "src/main/java/com/oneable/bitbucket/BitbucketController.java",
+                    "status": "modified"
+                },
+                {
+                    "filename": "src/main/java/com/oneable/bitbucket/BitbucketService.java",
+                    "status": "modified"
+                },
+                {
+                    "filename": "src/test/java/com/oneable/bitbucket/BitbucketControllerTest.java",
+                    "status": "modified"
+                },
+                {
+                    "filename": "src/test/java/com/oneable/bitbucket/BitbucketServiceTest.java",
+                    "status": "modified"
+                }
+            ],
+            "stats": {
+                "total": 109,
+                "additions": 109,
+                "deletions": 0
+            }
+        },
+        {
+            "url": "http://localhost:3000/api/v1/repos/OJAS/oneable-productivity/git/commits/a546f5425387c995d46a1943126629d9ffe576ec",
+            "sha": "a546f5425387c995d46a1943126629d9ffe576ec",
+            "created": "2024-04-05T10:22:20+05:30",
+            "html_url": "http://localhost:3000/OJAS/oneable-productivity/commit/a546f5425387c995d46a1943126629d9ffe576ec",
+            "commit": {
+                "url": "http://localhost:3000/api/v1/repos/OJAS/oneable-productivity/git/commits/a546f5425387c995d46a1943126629d9ffe576ec",
+                "author": {
+                    "name": "shivaprasadkalyan",
+                    "email": "shivaprasad.kalyan@ojas-it.com",
+                    "date": "2024-04-05T10:22:20+05:30"
+                },
+                "committer": {
+                    "name": "shivaprasadkalyan",
+                    "email": "shivaprasad.kalyan@ojas-it.com",
+                    "date": "2024-04-05T10:22:20+05:30"
+                },
+                "message": "Merge branch 'main' of http://localhost:3000/OJAS/oneable-productivity into aopLogging\n",
+                "tree": {
+                    "url": "http://localhost:3000/api/v1/repos/OJAS/oneable-productivity/git/trees/a546f5425387c995d46a1943126629d9ffe576ec",
+                    "sha": "a546f5425387c995d46a1943126629d9ffe576ec",
+                    "created": "2024-04-05T10:22:20+05:30"
+                },
+                "verification": {
+                    "verified": false,
+                    "reason": "gpg.error.not_signed_commit",
+                    "signature": "",
+                    "signer": null,
+                    "payload": ""
+                }
+            },
+            "author": {
+                "id": 3,
+                "login": "shivaprasad.kalyan",
+                "login_name": "",
+                "full_name": "",
+                "email": "shivaprasad.kalyan@noreply.localhost",
+                "avatar_url": "http://localhost:3000/avatar/bccd14ba07203e45d198eade5f4bbfd9",
+                "language": "",
+                "is_admin": false,
+                "last_login": "0001-01-01T00:00:00Z",
+                "created": "2024-01-25T14:08:04+05:30",
+                "restricted": false,
+                "active": false,
+                "prohibit_login": false,
+                "location": "",
+                "website": "",
+                "description": "",
+                "visibility": "public",
+                "followers_count": 0,
+                "following_count": 0,
+                "starred_repos_count": 0,
+                "username": "shivaprasad.kalyan"
+            },
+            "committer": {
+                "id": 3,
+                "login": "shivaprasad.kalyan",
+                "login_name": "",
+                "full_name": "",
+                "email": "shivaprasad.kalyan@noreply.localhost",
+                "avatar_url": "http://localhost:3000/avatar/bccd14ba07203e45d198eade5f4bbfd9",
+                "language": "",
+                "is_admin": false,
+                "last_login": "0001-01-01T00:00:00Z",
+                "created": "2024-01-25T14:08:04+05:30",
+                "restricted": false,
+                "active": false,
+                "prohibit_login": false,
+                "location": "",
+                "website": "",
+                "description": "",
+                "visibility": "public",
+                "followers_count": 0,
+                "following_count": 0,
+                "starred_repos_count": 0,
+                "username": "shivaprasad.kalyan"
+            },
+            "parents": [
+                {
+                    "url": "http://localhost:3000/api/v1/repos/OJAS/oneable-productivity/git/commits/682f6c826c329827b84d2b0c4a8c6e5c06c67c62",
+                    "sha": "682f6c826c329827b84d2b0c4a8c6e5c06c67c62",
+                    "created": "0001-01-01T00:00:00Z"
+                },
+                {
+                    "url": "http://localhost:3000/api/v1/repos/OJAS/oneable-productivity/git/commits/15bed361a91c241ebc61a9ccc1a6f0460832fcd8",
+                    "sha": "15bed361a91c241ebc61a9ccc1a6f0460832fcd8",
+                    "created": "0001-01-01T00:00:00Z"
+                }
+            ],
+            "files": [
+                {
+                    "filename": "pom.xml",
+                    "status": "modified"
+                }
+            ],
+            "stats": {
+                "total": 2,
+                "additions": 2,
+                "deletions": 0
+            }
+        }
+    ]
+]  
+[14:21:51,145 INFO][c.O.R.G.S.Getuserdetails.the_response_status_code_of_get_user_detail_api] The StatusCode200  
+[14:21:51,174 INFO][c.O.R.G.S.Getuserdetails.the_response_should_be_contain_user_data_of_get_user_detail_api] the name is:[
+    [
+        {
+            "url": "http://localhost:3000/api/v1/repos/OJAS/oneable-productivity/git/commits/002de1740ddf5392ec214669eb85a0d717c83e94",
+            "sha": "002de1740ddf5392ec214669eb85a0d717c83e94",
+            "created": "2024-05-15T16:08:35+05:30",
+            "html_url": "http://localhost:3000/OJAS/oneable-productivity/commit/002de1740ddf5392ec214669eb85a0d717c83e94",
+            "commit": {
+                "url": "http://localhost:3000/api/v1/repos/OJAS/oneable-productivity/git/commits/002de1740ddf5392ec214669eb85a0d717c83e94",
+                "author": {
+                    "name": "shivaprasadkalyan",
+                    "email": "shivaprasad.kalyan@ojas-it.com",
+                    "date": "2024-05-15T16:08:35+05:30"
+                },
+                "committer": {
+                    "name": "shivaprasadkalyan",
+                    "email": "shivaprasad.kalyan@ojas-it.com",
+                    "date": "2024-05-15T16:08:35+05:30"
+                },
+                "message": "Api tests added\n",
+                "tree": {
+                    "url": "http://localhost:3000/api/v1/repos/OJAS/oneable-productivity/git/trees/002de1740ddf5392ec214669eb85a0d717c83e94",
+                    "sha": "002de1740ddf5392ec214669eb85a0d717c83e94",
+                    "created": "2024-05-15T16:08:35+05:30"
+                },
+                "verification": {
+                    "verified": false,
+                    "reason": "gpg.error.not_signed_commit",
+                    "signature": "",
+                    "signer": null,
+                    "payload": ""
+                }
+            },
+            "author": {
+                "id": 3,
+                "login": "shivaprasad.kalyan",
+                "login_name": "",
+                "full_name": "",
+                "email": "shivaprasad.kalyan@noreply.localhost",
+                "avatar_url": "http://localhost:3000/avatar/bccd14ba07203e45d198eade5f4bbfd9",
+                "language": "",
+                "is_admin": false,
+                "last_login": "0001-01-01T00:00:00Z",
+                "created": "2024-01-25T14:08:04+05:30",
+                "restricted": false,
+                "active": false,
+                "prohibit_login": false,
+                "location": "",
+                "website": "",
+                "description": "",
+                "visibility": "public",
+                "followers_count": 0,
+                "following_count": 0,
+                "starred_repos_count": 0,
+                "username": "shivaprasad.kalyan"
+            },
+            "committer": {
+                "id": 3,
+                "login": "shivaprasad.kalyan",
+                "login_name": "",
+                "full_name": "",
+                "email": "shivaprasad.kalyan@noreply.localhost",
+                "avatar_url": "http://localhost:3000/avatar/bccd14ba07203e45d198eade5f4bbfd9",
+                "language": "",
+                "is_admin": false,
+                "last_login": "0001-01-01T00:00:00Z",
+                "created": "2024-01-25T14:08:04+05:30",
+                "restricted": false,
+                "active": false,
+                "prohibit_login": false,
+                "location": "",
+                "website": "",
+                "description": "",
+                "visibility": "public",
+                "followers_count": 0,
+                "following_count": 0,
+                "starred_repos_count": 0,
+                "username": "shivaprasad.kalyan"
+            },
+            "parents": [
+                {
+                    "url": "http://localhost:3000/api/v1/repos/OJAS/oneable-productivity/git/commits/c2d48fa63e106a0fc6a737e0954f9378846ac18c",
+                    "sha": "c2d48fa63e106a0fc6a737e0954f9378846ac18c",
+                    "created": "0001-01-01T00:00:00Z"
+                }
+            ],
+            "files": [
+                {
+                    "filename": "Api_Tests/Oneable Copy.postman_collection.json",
+                    "status": "added"
+                }
+            ],
+            "stats": {
+                "total": 705,
+                "additions": 705,
+                "deletions": 0
+            }
+        },
+        {
+            "url": "http://localhost:3000/api/v1/repos/OJAS/oneable-productivity/git/commits/9a8df81ae630790f4c4612a2ff6d2b6a2bc26f40",
+            "sha": "9a8df81ae630790f4c4612a2ff6d2b6a2bc26f40",
+            "created": "2024-04-12T17:31:02+05:30",
+            "html_url": "http://localhost:3000/OJAS/oneable-productivity/commit/9a8df81ae630790f4c4612a2ff6d2b6a2bc26f40",
+            "commit": {
+                "url": "http://localhost:3000/api/v1/repos/OJAS/oneable-productivity/git/commits/9a8df81ae630790f4c4612a2ff6d2b6a2bc26f40",
+                "author": {
+                    "name": "shivaprasadkalyan",
+                    "email": "shivaprasad.kalyan@ojas-it.com",
+                    "date": "2024-04-12T17:31:02+05:30"
+                },
+                "committer": {
+                    "name": "shivaprasadkalyan",
+                    "email": "shivaprasad.kalyan@ojas-it.com",
+                    "date": "2024-04-12T17:31:02+05:30"
+                },
+                "message": "latest modification for Logging Handler (exception is handled) and message bundle file\n",
+                "tree": {
+                    "url": "http://localhost:3000/api/v1/repos/OJAS/oneable-productivity/git/trees/9a8df81ae630790f4c4612a2ff6d2b6a2bc26f40",
+                    "sha": "9a8df81ae630790f4c4612a2ff6d2b6a2bc26f40",
+                    "created": "2024-04-12T17:31:02+05:30"
+                },
+                "verification": {
+                    "verified": false,
+                    "reason": "gpg.error.not_signed_commit",
+                    "signature": "",
+                    "signer": null,
+                    "payload": ""
+                }
+            },
+            "author": {
+                "id": 3,
+                "login": "shivaprasad.kalyan",
+                "login_name": "",
+                "full_name": "",
+                "email": "shivaprasad.kalyan@noreply.localhost",
+                "avatar_url": "http://localhost:3000/avatar/bccd14ba07203e45d198eade5f4bbfd9",
+                "language": "",
+                "is_admin": false,
+                "last_login": "0001-01-01T00:00:00Z",
+                "created": "2024-01-25T14:08:04+05:30",
+                "restricted": false,
+                "active": false,
+                "prohibit_login": false,
+                "location": "",
+                "website": "",
+                "description": "",
+                "visibility": "public",
+                "followers_count": 0,
+                "following_count": 0,
+                "starred_repos_count": 0,
+                "username": "shivaprasad.kalyan"
+            },
+            "committer": {
+                "id": 3,
+                "login": "shivaprasad.kalyan",
+                "login_name": "",
+                "full_name": "",
+                "email": "shivaprasad.kalyan@noreply.localhost",
+                "avatar_url": "http://localhost:3000/avatar/bccd14ba07203e45d198eade5f4bbfd9",
+                "language": "",
+                "is_admin": false,
+                "last_login": "0001-01-01T00:00:00Z",
+                "created": "2024-01-25T14:08:04+05:30",
+                "restricted": false,
+                "active": false,
+                "prohibit_login": false,
+                "location": "",
+                "website": "",
+                "description": "",
+                "visibility": "public",
+                "followers_count": 0,
+                "following_count": 0,
+                "starred_repos_count": 0,
+                "username": "shivaprasad.kalyan"
+            },
+            "parents": [
+                {
+                    "url": "http://localhost:3000/api/v1/repos/OJAS/oneable-productivity/git/commits/15b8ddb75d1f4fb52f6928d5de9dfb635a0c1618",
+                    "sha": "15b8ddb75d1f4fb52f6928d5de9dfb635a0c1618",
+                    "created": "0001-01-01T00:00:00Z"
+                }
+            ],
+            "files": [
+                {
+                    "filename": "src/main/java/com/oneable/handler/LoggingHandler.java",
+                    "status": "modified"
+                },
+                {
+                    "filename": "src/main/resources/messages.properties",
+                    "status": "modified"
+                }
+            ],
+            "stats": {
+                "total": 9,
+                "additions": 7,
+                "deletions": 2
+            }
+        },
+        {
+            "url": "http://localhost:3000/api/v1/repos/OJAS/oneable-productivity/git/commits/15b8ddb75d1f4fb52f6928d5de9dfb635a0c1618",
+            "sha": "15b8ddb75d1f4fb52f6928d5de9dfb635a0c1618",
+            "created": "2024-04-12T16:43:45+05:30",
+            "html_url": "http://localhost:3000/OJAS/oneable-productivity/commit/15b8ddb75d1f4fb52f6928d5de9dfb635a0c1618",
+            "commit": {
+                "url": "http://localhost:3000/api/v1/repos/OJAS/oneable-productivity/git/commits/15b8ddb75d1f4fb52f6928d5de9dfb635a0c1618",
+                "author": {
+                    "name": "shivaprasadkalyan",
+                    "email": "shivaprasad.kalyan@ojas-it.com",
+                    "date": "2024-04-12T16:43:45+05:30"
+                },
+                "committer": {
+                    "name": "shivaprasadkalyan",
+                    "email": "shivaprasad.kalyan@ojas-it.com",
+                    "date": "2024-04-12T16:43:45+05:30"
+                },
+                "message": "latest update for messages\n",
+                "tree": {
+                    "url": "http://localhost:3000/api/v1/repos/OJAS/oneable-productivity/git/trees/15b8ddb75d1f4fb52f6928d5de9dfb635a0c1618",
+                    "sha": "15b8ddb75d1f4fb52f6928d5de9dfb635a0c1618",
+                    "created": "2024-04-12T16:43:45+05:30"
+                },
+                "verification": {
+                    "verified": false,
+                    "reason": "gpg.error.not_signed_commit",
+                    "signature": "",
+                    "signer": null,
+                    "payload": ""
+                }
+            },
+            "author": {
+                "id": 3,
+                "login": "shivaprasad.kalyan",
+                "login_name": "",
+                "full_name": "",
+                "email": "shivaprasad.kalyan@noreply.localhost",
+                "avatar_url": "http://localhost:3000/avatar/bccd14ba07203e45d198eade5f4bbfd9",
+                "language": "",
+                "is_admin": false,
+                "last_login": "0001-01-01T00:00:00Z",
+                "created": "2024-01-25T14:08:04+05:30",
+                "restricted": false,
+                "active": false,
+                "prohibit_login": false,
+                "location": "",
+                "website": "",
+                "description": "",
+                "visibility": "public",
+                "followers_count": 0,
+                "following_count": 0,
+                "starred_repos_count": 0,
+                "username": "shivaprasad.kalyan"
+            },
+            "committer": {
+                "id": 3,
+                "login": "shivaprasad.kalyan",
+                "login_name": "",
+                "full_name": "",
+                "email": "shivaprasad.kalyan@noreply.localhost",
+                "avatar_url": "http://localhost:3000/avatar/bccd14ba07203e45d198eade5f4bbfd9",
+                "language": "",
+                "is_admin": false,
+                "last_login": "0001-01-01T00:00:00Z",
+                "created": "2024-01-25T14:08:04+05:30",
+                "restricted": false,
+                "active": false,
+                "prohibit_login": false,
+                "location": "",
+                "website": "",
+                "description": "",
+                "visibility": "public",
+                "followers_count": 0,
+                "following_count": 0,
+                "starred_repos_count": 0,
+                "username": "shivaprasad.kalyan"
+            },
+            "parents": [
+                {
+                    "url": "http://localhost:3000/api/v1/repos/OJAS/oneable-productivity/git/commits/225037d692a1a23d4afc98fb99d0c2ebe50e35a6",
+                    "sha": "225037d692a1a23d4afc98fb99d0c2ebe50e35a6",
+                    "created": "0001-01-01T00:00:00Z"
+                }
+            ],
+            "files": [
+                {
+                    "filename": "src/main/resources/application.yml",
+                    "status": "modified"
+                },
+                {
+                    "filename": "src/main/resources/messages.properties",
+                    "status": "modified"
+                }
+            ],
+            "stats": {
+                "total": 8,
+                "additions": 2,
+                "deletions": 6
+            }
+        },
+        {
+            "url": "http://localhost:3000/api/v1/repos/OJAS/oneable-productivity/git/commits/225037d692a1a23d4afc98fb99d0c2ebe50e35a6",
+            "sha": "225037d692a1a23d4afc98fb99d0c2ebe50e35a6",
+            "created": "2024-04-12T14:49:15+05:30",
+            "html_url": "http://localhost:3000/OJAS/oneable-productivity/commit/225037d692a1a23d4afc98fb99d0c2ebe50e35a6",
+            "commit": {
+                "url": "http://localhost:3000/api/v1/repos/OJAS/oneable-productivity/git/commits/225037d692a1a23d4afc98fb99d0c2ebe50e35a6",
+                "author": {
+                    "name": "shivaprasadkalyan",
+                    "email": "shivaprasad.kalyan@ojas-it.com",
+                    "date": "2024-04-12T14:49:15+05:30"
+                },
+                "committer": {
+                    "name": "shivaprasadkalyan",
+                    "email": "shivaprasad.kalyan@ojas-it.com",
+                    "date": "2024-04-12T14:49:15+05:30"
+                },
+                "message": "added latest merge code by shiva (for user details of GItea account)\n",
+                "tree": {
+                    "url": "http://localhost:3000/api/v1/repos/OJAS/oneable-productivity/git/trees/225037d692a1a23d4afc98fb99d0c2ebe50e35a6",
+                    "sha": "225037d692a1a23d4afc98fb99d0c2ebe50e35a6",
+                    "created": "2024-04-12T14:49:15+05:30"
+                },
+                "verification": {
+                    "verified": false,
+                    "reason": "gpg.error.not_signed_commit",
+                    "signature": "",
+                    "signer": null,
+                    "payload": ""
+                }
+            },
+            "author": {
+                "id": 3,
+                "login": "shivaprasad.kalyan",
+                "login_name": "",
+                "full_name": "",
+                "email": "shivaprasad.kalyan@noreply.localhost",
+                "avatar_url": "http://localhost:3000/avatar/bccd14ba07203e45d198eade5f4bbfd9",
+                "language": "",
+                "is_admin": false,
+                "last_login": "0001-01-01T00:00:00Z",
+                "created": "2024-01-25T14:08:04+05:30",
+                "restricted": false,
+                "active": false,
+                "prohibit_login": false,
+                "location": "",
+                "website": "",
+                "description": "",
+                "visibility": "public",
+                "followers_count": 0,
+                "following_count": 0,
+                "starred_repos_count": 0,
+                "username": "shivaprasad.kalyan"
+            },
+            "committer": {
+                "id": 3,
+                "login": "shivaprasad.kalyan",
+                "login_name": "",
+                "full_name": "",
+                "email": "shivaprasad.kalyan@noreply.localhost",
+                "avatar_url": "http://localhost:3000/avatar/bccd14ba07203e45d198eade5f4bbfd9",
+                "language": "",
+                "is_admin": false,
+                "last_login": "0001-01-01T00:00:00Z",
+                "created": "2024-01-25T14:08:04+05:30",
+                "restricted": false,
+                "active": false,
+                "prohibit_login": false,
+                "location": "",
+                "website": "",
+                "description": "",
+                "visibility": "public",
+                "followers_count": 0,
+                "following_count": 0,
+                "starred_repos_count": 0,
+                "username": "shivaprasad.kalyan"
+            },
+            "parents": [
+                {
+                    "url": "http://localhost:3000/api/v1/repos/OJAS/oneable-productivity/git/commits/3e16acaa9c1de1d49f83975bd273dd9b7f789eba",
+                    "sha": "3e16acaa9c1de1d49f83975bd273dd9b7f789eba",
+                    "created": "0001-01-01T00:00:00Z"
+                },
+                {
+                    "url": "http://localhost:3000/api/v1/repos/OJAS/oneable-productivity/git/commits/1aed0d3e0842810621f0ec01d2eb285b63fb5d32",
+                    "sha": "1aed0d3e0842810621f0ec01d2eb285b63fb5d32",
+                    "created": "0001-01-01T00:00:00Z"
+                }
+            ],
+            "files": [
+                {
+                    "filename": "src/main/resources/github.properties",
+                    "status": "removed"
+                },
+                {
+                    "filename": "src/main/java/com/oneable/bitbucket/BitbucketController.java",
+                    "status": "modified"
+                },
+                {
+                    "filename": "src/main/java/com/oneable/bitbucket/BitbucketService.java",
+                    "status": "modified"
+                },
+                {
+                    "filename": "src/main/java/com/oneable/controller/AuthenticationController.java",
+                    "status": "modified"
+                },
+                {
+                    "filename": "src/main/java/com/oneable/gitea/GiteaRestController.java",
+                    "status": "modified"
+                },
+                {
+                    "filename": "src/main/java/com/oneable/gitea/GiteaRestServiceImpl.java",
+                    "status": "modified"
+                },
+                {
+                    "filename": "src/main/java/com/oneable/github/controller/GHBranchController.java",
+                    "status": "modified"
+                },
+                {
+                    "filename": "src/main/java/com/oneable/github/controller/GHOrgController.java",
+                    "status": "modified"
+                },
+                {
+                    "filename": "src/main/java/com/oneable/github/controller/GHRepoController.java",
+                    "status": "modified"
+                },
+                {
+                    "filename": "src/main/java/com/oneable/github/controller/GHUserController.java",
+                    "status": "modified"
+                },
+                {
+                    "filename": "src/main/java/com/oneable/jira/JiraIntegrationController.java",
+                    "status": "modified"
+                },
+                {
+                    "filename": "src/main/java/com/oneable/jira/JiraIntegrationService.java",
+                    "status": "modified"
+                },
+                {
+                    "filename": "src/main/java/com/oneable/teams/TeamsController.java",
+                    "status": "modified"
+                },
+                {
+                    "filename": "src/main/java/com/oneable/teams/TeamsMeetingService.java",
+                    "status": "modified"
+                },
+                {
+                    "filename": "src/main/java/com/oneable/teams/TeamsService.java",
+                    "status": "modified"
+                },
+                {
+                    "filename": "src/main/resources/messages.properties",
+                    "status": "modified"
+                }
+            ],
+            "stats": {
+                "total": 628,
+                "additions": 363,
+                "deletions": 265
+            }
+        },
+        {
+            "url": "http://localhost:3000/api/v1/repos/OJAS/oneable-productivity/git/commits/3e16acaa9c1de1d49f83975bd273dd9b7f789eba",
+            "sha": "3e16acaa9c1de1d49f83975bd273dd9b7f789eba",
+            "created": "2024-04-12T14:44:39+05:30",
+            "html_url": "http://localhost:3000/OJAS/oneable-productivity/commit/3e16acaa9c1de1d49f83975bd273dd9b7f789eba",
+            "commit": {
+                "url": "http://localhost:3000/api/v1/repos/OJAS/oneable-productivity/git/commits/3e16acaa9c1de1d49f83975bd273dd9b7f789eba",
+                "author": {
+                    "name": "shivaprasadkalyan",
+                    "email": "shivaprasad.kalyan@ojas-it.com",
+                    "date": "2024-04-12T14:44:39+05:30"
+                },
+                "committer": {
+                    "name": "shivaprasadkalyan",
+                    "email": "shivaprasad.kalyan@ojas-it.com",
+                    "date": "2024-04-12T14:44:39+05:30"
+                },
+                "message": "config class modified\n",
+                "tree": {
+                    "url": "http://localhost:3000/api/v1/repos/OJAS/oneable-productivity/git/trees/3e16acaa9c1de1d49f83975bd273dd9b7f789eba",
+                    "sha": "3e16acaa9c1de1d49f83975bd273dd9b7f789eba",
+                    "created": "2024-04-12T14:44:39+05:30"
+                },
+                "verification": {
+                    "verified": false,
+                    "reason": "gpg.error.not_signed_commit",
+                    "signature": "",
+                    "signer": null,
+                    "payload": ""
+                }
+            },
+            "author": {
+                "id": 3,
+                "login": "shivaprasad.kalyan",
+                "login_name": "",
+                "full_name": "",
+                "email": "shivaprasad.kalyan@noreply.localhost",
+                "avatar_url": "http://localhost:3000/avatar/bccd14ba07203e45d198eade5f4bbfd9",
+                "language": "",
+                "is_admin": false,
+                "last_login": "0001-01-01T00:00:00Z",
+                "created": "2024-01-25T14:08:04+05:30",
+                "restricted": false,
+                "active": false,
+                "prohibit_login": false,
+                "location": "",
+                "website": "",
+                "description": "",
+                "visibility": "public",
+                "followers_count": 0,
+                "following_count": 0,
+                "starred_repos_count": 0,
+                "username": "shivaprasad.kalyan"
+            },
+            "committer": {
+                "id": 3,
+                "login": "shivaprasad.kalyan",
+                "login_name": "",
+                "full_name": "",
+                "email": "shivaprasad.kalyan@noreply.localhost",
+                "avatar_url": "http://localhost:3000/avatar/bccd14ba07203e45d198eade5f4bbfd9",
+                "language": "",
+                "is_admin": false,
+                "last_login": "0001-01-01T00:00:00Z",
+                "created": "2024-01-25T14:08:04+05:30",
+                "restricted": false,
+                "active": false,
+                "prohibit_login": false,
+                "location": "",
+                "website": "",
+                "description": "",
+                "visibility": "public",
+                "followers_count": 0,
+                "following_count": 0,
+                "starred_repos_count": 0,
+                "username": "shivaprasad.kalyan"
+            },
+            "parents": [
+                {
+                    "url": "http://localhost:3000/api/v1/repos/OJAS/oneable-productivity/git/commits/1be72ba88f8e11aa5aae8c862ae0003d9110bdf8",
+                    "sha": "1be72ba88f8e11aa5aae8c862ae0003d9110bdf8",
+                    "created": "0001-01-01T00:00:00Z"
+                }
+            ],
+            "files": [
+                {
+                    "filename": "src/main/resources/logback-spring.xml",
+                    "status": "modified"
+                }
+            ],
+            "stats": {
+                "total": 8,
+                "additions": 0,
+                "deletions": 8
+            }
+        },
+        {
+            "url": "http://localhost:3000/api/v1/repos/OJAS/oneable-productivity/git/commits/1aed0d3e0842810621f0ec01d2eb285b63fb5d32",
+            "sha": "1aed0d3e0842810621f0ec01d2eb285b63fb5d32",
+            "created": "2024-04-12T14:29:48+05:30",
+            "html_url": "http://localhost:3000/OJAS/oneable-productivity/commit/1aed0d3e0842810621f0ec01d2eb285b63fb5d32",
+            "commit": {
+                "url": "http://localhost:3000/api/v1/repos/OJAS/oneable-productivity/git/commits/1aed0d3e0842810621f0ec01d2eb285b63fb5d32",
+                "author": {
+                    "name": "shivaprasad.kalyan",
+                    "email": "shivaprasad.kalyan@ojas-it.com",
+                    "date": "2024-04-12T14:29:48+05:30"
+                },
+                "committer": {
+                    "name": "shivaprasad.kalyan",
+                    "email": "shivaprasad.kalyan@ojas-it.com",
+                    "date": "2024-04-12T14:29:48+05:30"
+                },
+                "message": "Merge pull request 'InternalizationOutput' (#56) from InternalizationOutput into main\n\nReviewed-on: http://localhost:3000/OJAS/oneable-productivity/pulls/56\n",
+                "tree": {
+                    "url": "http://localhost:3000/api/v1/repos/OJAS/oneable-productivity/git/trees/1aed0d3e0842810621f0ec01d2eb285b63fb5d32",
+                    "sha": "1aed0d3e0842810621f0ec01d2eb285b63fb5d32",
+                    "created": "2024-04-12T14:29:48+05:30"
+                },
+                "verification": {
+                    "verified": false,
+                    "reason": "gpg.error.not_signed_commit",
+                    "signature": "",
+                    "signer": null,
+                    "payload": ""
+                }
+            },
+            "author": {
+                "id": 3,
+                "login": "shivaprasad.kalyan",
+                "login_name": "",
+                "full_name": "",
+                "email": "shivaprasad.kalyan@noreply.localhost",
+                "avatar_url": "http://localhost:3000/avatar/bccd14ba07203e45d198eade5f4bbfd9",
+                "language": "",
+                "is_admin": false,
+                "last_login": "0001-01-01T00:00:00Z",
+                "created": "2024-01-25T14:08:04+05:30",
+                "restricted": false,
+                "active": false,
+                "prohibit_login": false,
+                "location": "",
+                "website": "",
+                "description": "",
+                "visibility": "public",
+                "followers_count": 0,
+                "following_count": 0,
+                "starred_repos_count": 0,
+                "username": "shivaprasad.kalyan"
+            },
+            "committer": {
+                "id": 3,
+                "login": "shivaprasad.kalyan",
+                "login_name": "",
+                "full_name": "",
+                "email": "shivaprasad.kalyan@noreply.localhost",
+                "avatar_url": "http://localhost:3000/avatar/bccd14ba07203e45d198eade5f4bbfd9",
+                "language": "",
+                "is_admin": false,
+                "last_login": "0001-01-01T00:00:00Z",
+                "created": "2024-01-25T14:08:04+05:30",
+                "restricted": false,
+                "active": false,
+                "prohibit_login": false,
+                "location": "",
+                "website": "",
+                "description": "",
+                "visibility": "public",
+                "followers_count": 0,
+                "following_count": 0,
+                "starred_repos_count": 0,
+                "username": "shivaprasad.kalyan"
+            },
+            "parents": [
+                {
+                    "url": "http://localhost:3000/api/v1/repos/OJAS/oneable-productivity/git/commits/62fe2dc63c66332934a26b8051c4d60c4ee5fc5c",
+                    "sha": "62fe2dc63c66332934a26b8051c4d60c4ee5fc5c",
+                    "created": "0001-01-01T00:00:00Z"
+                },
+                {
+                    "url": "http://localhost:3000/api/v1/repos/OJAS/oneable-productivity/git/commits/51581a0e309bc7fe76bfcf0b760739ebd2466e4f",
+                    "sha": "51581a0e309bc7fe76bfcf0b760739ebd2466e4f",
+                    "created": "0001-01-01T00:00:00Z"
+                }
+            ],
+            "files": [
+                {
+                    "filename": "src/main/resources/github.properties",
+                    "status": "removed"
+                },
+                {
+                    "filename": "src/main/java/com/oneable/bitbucket/BitbucketController.java",
+                    "status": "modified"
+                },
+                {
+                    "filename": "src/main/java/com/oneable/bitbucket/BitbucketService.java",
+                    "status": "modified"
+                },
+                {
+                    "filename": "src/main/java/com/oneable/controller/AuthenticationController.java",
+                    "status": "modified"
+                },
+                {
+                    "filename": "src/main/java/com/oneable/gitea/GiteaRestController.java",
+                    "status": "modified"
+                },
+                {
+                    "filename": "src/main/java/com/oneable/gitea/GiteaRestServiceImpl.java",
+                    "status": "modified"
+                },
+                {
+                    "filename": "src/main/java/com/oneable/github/controller/GHBranchController.java",
+                    "status": "modified"
+                },
+                {
+                    "filename": "src/main/java/com/oneable/github/controller/GHOrgController.java",
+                    "status": "modified"
+                },
+                {
+                    "filename": "src/main/java/com/oneable/github/controller/GHRepoController.java",
+                    "status": "modified"
+                },
+                {
+                    "filename": "src/main/java/com/oneable/github/controller/GHUserController.java",
+                    "status": "modified"
+                },
+                {
+                    "filename": "src/main/java/com/oneable/jira/JiraIntegrationController.java",
+                    "status": "modified"
+                },
+                {
+                    "filename": "src/main/java/com/oneable/jira/JiraIntegrationService.java",
+                    "status": "modified"
+                },
+                {
+                    "filename": "src/main/java/com/oneable/teams/TeamsController.java",
+                    "status": "modified"
+                },
+                {
+                    "filename": "src/main/java/com/oneable/teams/TeamsMeetingService.java",
+                    "status": "modified"
+                },
+                {
+                    "filename": "src/main/java/com/oneable/teams/TeamsService.java",
+                    "status": "modified"
+                },
+                {
+                    "filename": "src/main/resources/messages.properties",
+                    "status": "modified"
+                }
+            ],
+            "stats": {
+                "total": 622,
+                "additions": 360,
+                "deletions": 262
+            }
+        },
+        {
+            "url": "http://localhost:3000/api/v1/repos/OJAS/oneable-productivity/git/commits/1be72ba88f8e11aa5aae8c862ae0003d9110bdf8",
+            "sha": "1be72ba88f8e11aa5aae8c862ae0003d9110bdf8",
+            "created": "2024-04-11T12:23:02+05:30",
+            "html_url": "http://localhost:3000/OJAS/oneable-productivity/commit/1be72ba88f8e11aa5aae8c862ae0003d9110bdf8",
+            "commit": {
+                "url": "http://localhost:3000/api/v1/repos/OJAS/oneable-productivity/git/commits/1be72ba88f8e11aa5aae8c862ae0003d9110bdf8",
+                "author": {
+                    "name": "shivaprasadkalyan",
+                    "email": "shivaprasad.kalyan@ojas-it.com",
+                    "date": "2024-04-11T12:23:02+05:30"
+                },
+                "committer": {
+                    "name": "shivaprasadkalyan",
+                    "email": "shivaprasad.kalyan@ojas-it.com",
+                    "date": "2024-04-11T12:23:02+05:30"
+                },
+                "message": "removed log files\n",
+                "tree": {
+                    "url": "http://localhost:3000/api/v1/repos/OJAS/oneable-productivity/git/trees/1be72ba88f8e11aa5aae8c862ae0003d9110bdf8",
+                    "sha": "1be72ba88f8e11aa5aae8c862ae0003d9110bdf8",
+                    "created": "2024-04-11T12:23:02+05:30"
+                },
+                "verification": {
+                    "verified": false,
+                    "reason": "gpg.error.not_signed_commit",
+                    "signature": "",
+                    "signer": null,
+                    "payload": ""
+                }
+            },
+            "author": {
+                "id": 3,
+                "login": "shivaprasad.kalyan",
+                "login_name": "",
+                "full_name": "",
+                "email": "shivaprasad.kalyan@noreply.localhost",
+                "avatar_url": "http://localhost:3000/avatar/bccd14ba07203e45d198eade5f4bbfd9",
+                "language": "",
+                "is_admin": false,
+                "last_login": "0001-01-01T00:00:00Z",
+                "created": "2024-01-25T14:08:04+05:30",
+                "restricted": false,
+                "active": false,
+                "prohibit_login": false,
+                "location": "",
+                "website": "",
+                "description": "",
+                "visibility": "public",
+                "followers_count": 0,
+                "following_count": 0,
+                "starred_repos_count": 0,
+                "username": "shivaprasad.kalyan"
+            },
+            "committer": {
+                "id": 3,
+                "login": "shivaprasad.kalyan",
+                "login_name": "",
+                "full_name": "",
+                "email": "shivaprasad.kalyan@noreply.localhost",
+                "avatar_url": "http://localhost:3000/avatar/bccd14ba07203e45d198eade5f4bbfd9",
+                "language": "",
+                "is_admin": false,
+                "last_login": "0001-01-01T00:00:00Z",
+                "created": "2024-01-25T14:08:04+05:30",
+                "restricted": false,
+                "active": false,
+                "prohibit_login": false,
+                "location": "",
+                "website": "",
+                "description": "",
+                "visibility": "public",
+                "followers_count": 0,
+                "following_count": 0,
+                "starred_repos_count": 0,
+                "username": "shivaprasad.kalyan"
+            },
+            "parents": [
+                {
+                    "url": "http://localhost:3000/api/v1/repos/OJAS/oneable-productivity/git/commits/db37a0cd73d3185f0e8176c64f2f66149e6c1f52",
+                    "sha": "db37a0cd73d3185f0e8176c64f2f66149e6c1f52",
+                    "created": "0001-01-01T00:00:00Z"
+                }
+            ],
+            "files": [
+                {
+                    "filename": "logs/aop-centralized-logging.log",
+                    "status": "removed"
+                },
+                {
+                    "filename": "logs/archived/aop-centralized-logging-2024-04-04-[0].log",
+                    "status": "removed"
+                }
+            ],
+            "stats": {
+                "total": 1904,
+                "additions": 0,
+                "deletions": 1904
+            }
+        },
+        {
+            "url": "http://localhost:3000/api/v1/repos/OJAS/oneable-productivity/git/commits/db37a0cd73d3185f0e8176c64f2f66149e6c1f52",
+            "sha": "db37a0cd73d3185f0e8176c64f2f66149e6c1f52",
+            "created": "2024-04-11T10:44:47+05:30",
+            "html_url": "http://localhost:3000/OJAS/oneable-productivity/commit/db37a0cd73d3185f0e8176c64f2f66149e6c1f52",
+            "commit": {
+                "url": "http://localhost:3000/api/v1/repos/OJAS/oneable-productivity/git/commits/db37a0cd73d3185f0e8176c64f2f66149e6c1f52",
+                "author": {
+                    "name": "shivaprasadkalyan",
+                    "email": "shivaprasad.kalyan@ojas-it.com",
+                    "date": "2024-04-11T10:44:47+05:30"
+                },
+                "committer": {
+                    "name": "shivaprasadkalyan",
+                    "email": "shivaprasad.kalyan@ojas-it.com",
+                    "date": "2024-04-11T10:44:47+05:30"
+                },
+                "message": "deleted unnecessary file\n",
+                "tree": {
+                    "url": "http://localhost:3000/api/v1/repos/OJAS/oneable-productivity/git/trees/db37a0cd73d3185f0e8176c64f2f66149e6c1f52",
+                    "sha": "db37a0cd73d3185f0e8176c64f2f66149e6c1f52",
+                    "created": "2024-04-11T10:44:47+05:30"
+                },
+                "verification": {
+                    "verified": false,
+                    "reason": "gpg.error.not_signed_commit",
+                    "signature": "",
+                    "signer": null,
+                    "payload": ""
+                }
+            },
+            "author": {
+                "id": 3,
+                "login": "shivaprasad.kalyan",
+                "login_name": "",
+                "full_name": "",
+                "email": "shivaprasad.kalyan@noreply.localhost",
+                "avatar_url": "http://localhost:3000/avatar/bccd14ba07203e45d198eade5f4bbfd9",
+                "language": "",
+                "is_admin": false,
+                "last_login": "0001-01-01T00:00:00Z",
+                "created": "2024-01-25T14:08:04+05:30",
+                "restricted": false,
+                "active": false,
+                "prohibit_login": false,
+                "location": "",
+                "website": "",
+                "description": "",
+                "visibility": "public",
+                "followers_count": 0,
+                "following_count": 0,
+                "starred_repos_count": 0,
+                "username": "shivaprasad.kalyan"
+            },
+            "committer": {
+                "id": 3,
+                "login": "shivaprasad.kalyan",
+                "login_name": "",
+                "full_name": "",
+                "email": "shivaprasad.kalyan@noreply.localhost",
+                "avatar_url": "http://localhost:3000/avatar/bccd14ba07203e45d198eade5f4bbfd9",
+                "language": "",
+                "is_admin": false,
+                "last_login": "0001-01-01T00:00:00Z",
+                "created": "2024-01-25T14:08:04+05:30",
+                "restricted": false,
+                "active": false,
+                "prohibit_login": false,
+                "location": "",
+                "website": "",
+                "description": "",
+                "visibility": "public",
+                "followers_count": 0,
+                "following_count": 0,
+                "starred_repos_count": 0,
+                "username": "shivaprasad.kalyan"
+            },
+            "parents": [
+                {
+                    "url": "http://localhost:3000/api/v1/repos/OJAS/oneable-productivity/git/commits/201fc261ba1325c62ac102f9590ec9aab7bf92ec",
+                    "sha": "201fc261ba1325c62ac102f9590ec9aab7bf92ec",
+                    "created": "0001-01-01T00:00:00Z"
+                }
+            ],
+            "files": [
+                {
+                    "filename": "chat_messages_and_durations.txt",
+                    "status": "removed"
+                },
+                {
+                    "filename": "logs/aop-centralized-logging.log",
+                    "status": "modified"
+                }
+            ],
+            "stats": {
+                "total": 196,
+                "additions": 76,
+                "deletions": 120
+            }
+        },
+        {
+            "url": "http://localhost:3000/api/v1/repos/OJAS/oneable-productivity/git/commits/201fc261ba1325c62ac102f9590ec9aab7bf92ec",
+            "sha": "201fc261ba1325c62ac102f9590ec9aab7bf92ec",
+            "created": "2024-04-11T10:42:04+05:30",
+            "html_url": "http://localhost:3000/OJAS/oneable-productivity/commit/201fc261ba1325c62ac102f9590ec9aab7bf92ec",
+            "commit": {
+                "url": "http://localhost:3000/api/v1/repos/OJAS/oneable-productivity/git/commits/201fc261ba1325c62ac102f9590ec9aab7bf92ec",
+                "author": {
+                    "name": "shivaprasadkalyan",
+                    "email": "shivaprasad.kalyan@ojas-it.com",
+                    "date": "2024-04-11T10:42:04+05:30"
+                },
+                "committer": {
+                    "name": "shivaprasadkalyan",
+                    "email": "shivaprasad.kalyan@ojas-it.com",
+                    "date": "2024-04-11T10:42:04+05:30"
+                },
+                "message": "aop advice added\n",
+                "tree": {
+                    "url": "http://localhost:3000/api/v1/repos/OJAS/oneable-productivity/git/trees/201fc261ba1325c62ac102f9590ec9aab7bf92ec",
+                    "sha": "201fc261ba1325c62ac102f9590ec9aab7bf92ec",
+                    "created": "2024-04-11T10:42:04+05:30"
+                },
+                "verification": {
+                    "verified": false,
+                    "reason": "gpg.error.not_signed_commit",
+                    "signature": "",
+                    "signer": null,
+                    "payload": ""
+                }
+            },
+            "author": {
+                "id": 3,
+                "login": "shivaprasad.kalyan",
+                "login_name": "",
+                "full_name": "",
+                "email": "shivaprasad.kalyan@noreply.localhost",
+                "avatar_url": "http://localhost:3000/avatar/bccd14ba07203e45d198eade5f4bbfd9",
+                "language": "",
+                "is_admin": false,
+                "last_login": "0001-01-01T00:00:00Z",
+                "created": "2024-01-25T14:08:04+05:30",
+                "restricted": false,
+                "active": false,
+                "prohibit_login": false,
+                "location": "",
+                "website": "",
+                "description": "",
+                "visibility": "public",
+                "followers_count": 0,
+                "following_count": 0,
+                "starred_repos_count": 0,
+                "username": "shivaprasad.kalyan"
+            },
+            "committer": {
+                "id": 3,
+                "login": "shivaprasad.kalyan",
+                "login_name": "",
+                "full_name": "",
+                "email": "shivaprasad.kalyan@noreply.localhost",
+                "avatar_url": "http://localhost:3000/avatar/bccd14ba07203e45d198eade5f4bbfd9",
+                "language": "",
+                "is_admin": false,
+                "last_login": "0001-01-01T00:00:00Z",
+                "created": "2024-01-25T14:08:04+05:30",
+                "restricted": false,
+                "active": false,
+                "prohibit_login": false,
+                "location": "",
+                "website": "",
+                "description": "",
+                "visibility": "public",
+                "followers_count": 0,
+                "following_count": 0,
+                "starred_repos_count": 0,
+                "username": "shivaprasad.kalyan"
+            },
+            "parents": [
+                {
+                    "url": "http://localhost:3000/api/v1/repos/OJAS/oneable-productivity/git/commits/14b660d2b181fe9d056c964743366f166a15de7e",
+                    "sha": "14b660d2b181fe9d056c964743366f166a15de7e",
+                    "created": "0001-01-01T00:00:00Z"
+                }
+            ],
+            "files": [
+                {
+                    "filename": "logs/archived/aop-centralized-logging-2024-04-04-[0].log",
+                    "status": "added"
+                },
+                {
+                    "filename": "logs/aop-centralized-logging.log",
+                    "status": "modified"
+                },
+                {
+                    "filename": "src/main/java/com/oneable/handler/LoggingHandler.java",
+                    "status": "modified"
+                },
+                {
+                    "filename": "src/main/resources/application.yml",
+                    "status": "modified"
+                },
+                {
+                    "filename": "src/main/resources/logback-spring.xml",
+                    "status": "modified"
+                }
+            ],
+            "stats": {
+                "total": 2109,
+                "additions": 1862,
+                "deletions": 247
+            }
+        },
+        {
+            "url": "http://localhost:3000/api/v1/repos/OJAS/oneable-productivity/git/commits/14b660d2b181fe9d056c964743366f166a15de7e",
+            "sha": "14b660d2b181fe9d056c964743366f166a15de7e",
+            "created": "2024-04-11T09:47:57+05:30",
+            "html_url": "http://localhost:3000/OJAS/oneable-productivity/commit/14b660d2b181fe9d056c964743366f166a15de7e",
+            "commit": {
+                "url": "http://localhost:3000/api/v1/repos/OJAS/oneable-productivity/git/commits/14b660d2b181fe9d056c964743366f166a15de7e",
+                "author": {
+                    "name": "shivaprasadkalyan",
+                    "email": "shivaprasad.kalyan@ojas-it.com",
+                    "date": "2024-04-11T09:47:57+05:30"
+                },
+                "committer": {
+                    "name": "shivaprasadkalyan",
+                    "email": "shivaprasad.kalyan@ojas-it.com",
+                    "date": "2024-04-11T09:47:57+05:30"
+                },
+                "message": "Merge branch 'main' of http://localhost:3000/OJAS/oneable-productivity into aopLogging\n",
+                "tree": {
+                    "url": "http://localhost:3000/api/v1/repos/OJAS/oneable-productivity/git/trees/14b660d2b181fe9d056c964743366f166a15de7e",
+                    "sha": "14b660d2b181fe9d056c964743366f166a15de7e",
+                    "created": "2024-04-11T09:47:57+05:30"
+                },
+                "verification": {
+                    "verified": false,
+                    "reason": "gpg.error.not_signed_commit",
+                    "signature": "",
+                    "signer": null,
+                    "payload": ""
+                }
+            },
+            "author": {
+                "id": 3,
+                "login": "shivaprasad.kalyan",
+                "login_name": "",
+                "full_name": "",
+                "email": "shivaprasad.kalyan@noreply.localhost",
+                "avatar_url": "http://localhost:3000/avatar/bccd14ba07203e45d198eade5f4bbfd9",
+                "language": "",
+                "is_admin": false,
+                "last_login": "0001-01-01T00:00:00Z",
+                "created": "2024-01-25T14:08:04+05:30",
+                "restricted": false,
+                "active": false,
+                "prohibit_login": false,
+                "location": "",
+                "website": "",
+                "description": "",
+                "visibility": "public",
+                "followers_count": 0,
+                "following_count": 0,
+                "starred_repos_count": 0,
+                "username": "shivaprasad.kalyan"
+            },
+            "committer": {
+                "id": 3,
+                "login": "shivaprasad.kalyan",
+                "login_name": "",
+                "full_name": "",
+                "email": "shivaprasad.kalyan@noreply.localhost",
+                "avatar_url": "http://localhost:3000/avatar/bccd14ba07203e45d198eade5f4bbfd9",
+                "language": "",
+                "is_admin": false,
+                "last_login": "0001-01-01T00:00:00Z",
+                "created": "2024-01-25T14:08:04+05:30",
+                "restricted": false,
+                "active": false,
+                "prohibit_login": false,
+                "location": "",
+                "website": "",
+                "description": "",
+                "visibility": "public",
+                "followers_count": 0,
+                "following_count": 0,
+                "starred_repos_count": 0,
+                "username": "shivaprasad.kalyan"
+            },
+            "parents": [
+                {
+                    "url": "http://localhost:3000/api/v1/repos/OJAS/oneable-productivity/git/commits/a546f5425387c995d46a1943126629d9ffe576ec",
+                    "sha": "a546f5425387c995d46a1943126629d9ffe576ec",
+                    "created": "0001-01-01T00:00:00Z"
+                },
+                {
+                    "url": "http://localhost:3000/api/v1/repos/OJAS/oneable-productivity/git/commits/62fe2dc63c66332934a26b8051c4d60c4ee5fc5c",
+                    "sha": "62fe2dc63c66332934a26b8051c4d60c4ee5fc5c",
+                    "created": "0001-01-01T00:00:00Z"
+                }
+            ],
+            "files": [
+                {
+                    "filename": "src/main/java/com/oneable/bitbucket/BitbucketController.java",
+                    "status": "modified"
+                },
+                {
+                    "filename": "src/main/java/com/oneable/bitbucket/BitbucketService.java",
+                    "status": "modified"
+                },
+                {
+                    "filename": "src/test/java/com/oneable/bitbucket/BitbucketControllerTest.java",
+                    "status": "modified"
+                },
+                {
+                    "filename": "src/test/java/com/oneable/bitbucket/BitbucketServiceTest.java",
+                    "status": "modified"
+                }
+            ],
+            "stats": {
+                "total": 109,
+                "additions": 109,
+                "deletions": 0
+            }
+        },
+        {
+            "url": "http://localhost:3000/api/v1/repos/OJAS/oneable-productivity/git/commits/a546f5425387c995d46a1943126629d9ffe576ec",
+            "sha": "a546f5425387c995d46a1943126629d9ffe576ec",
+            "created": "2024-04-05T10:22:20+05:30",
+            "html_url": "http://localhost:3000/OJAS/oneable-productivity/commit/a546f5425387c995d46a1943126629d9ffe576ec",
+            "commit": {
+                "url": "http://localhost:3000/api/v1/repos/OJAS/oneable-productivity/git/commits/a546f5425387c995d46a1943126629d9ffe576ec",
+                "author": {
+                    "name": "shivaprasadkalyan",
+                    "email": "shivaprasad.kalyan@ojas-it.com",
+                    "date": "2024-04-05T10:22:20+05:30"
+                },
+                "committer": {
+                    "name": "shivaprasadkalyan",
+                    "email": "shivaprasad.kalyan@ojas-it.com",
+                    "date": "2024-04-05T10:22:20+05:30"
+                },
+                "message": "Merge branch 'main' of http://localhost:3000/OJAS/oneable-productivity into aopLogging\n",
+                "tree": {
+                    "url": "http://localhost:3000/api/v1/repos/OJAS/oneable-productivity/git/trees/a546f5425387c995d46a1943126629d9ffe576ec",
+                    "sha": "a546f5425387c995d46a1943126629d9ffe576ec",
+                    "created": "2024-04-05T10:22:20+05:30"
+                },
+                "verification": {
+                    "verified": false,
+                    "reason": "gpg.error.not_signed_commit",
+                    "signature": "",
+                    "signer": null,
+                    "payload": ""
+                }
+            },
+            "author": {
+                "id": 3,
+                "login": "shivaprasad.kalyan",
+                "login_name": "",
+                "full_name": "",
+                "email": "shivaprasad.kalyan@noreply.localhost",
+                "avatar_url": "http://localhost:3000/avatar/bccd14ba07203e45d198eade5f4bbfd9",
+                "language": "",
+                "is_admin": false,
+                "last_login": "0001-01-01T00:00:00Z",
+                "created": "2024-01-25T14:08:04+05:30",
+                "restricted": false,
+                "active": false,
+                "prohibit_login": false,
+                "location": "",
+                "website": "",
+                "description": "",
+                "visibility": "public",
+                "followers_count": 0,
+                "following_count": 0,
+                "starred_repos_count": 0,
+                "username": "shivaprasad.kalyan"
+            },
+            "committer": {
+                "id": 3,
+                "login": "shivaprasad.kalyan",
+                "login_name": "",
+                "full_name": "",
+                "email": "shivaprasad.kalyan@noreply.localhost",
+                "avatar_url": "http://localhost:3000/avatar/bccd14ba07203e45d198eade5f4bbfd9",
+                "language": "",
+                "is_admin": false,
+                "last_login": "0001-01-01T00:00:00Z",
+                "created": "2024-01-25T14:08:04+05:30",
+                "restricted": false,
+                "active": false,
+                "prohibit_login": false,
+                "location": "",
+                "website": "",
+                "description": "",
+                "visibility": "public",
+                "followers_count": 0,
+                "following_count": 0,
+                "starred_repos_count": 0,
+                "username": "shivaprasad.kalyan"
+            },
+            "parents": [
+                {
+                    "url": "http://localhost:3000/api/v1/repos/OJAS/oneable-productivity/git/commits/682f6c826c329827b84d2b0c4a8c6e5c06c67c62",
+                    "sha": "682f6c826c329827b84d2b0c4a8c6e5c06c67c62",
+                    "created": "0001-01-01T00:00:00Z"
+                },
+                {
+                    "url": "http://localhost:3000/api/v1/repos/OJAS/oneable-productivity/git/commits/15bed361a91c241ebc61a9ccc1a6f0460832fcd8",
+                    "sha": "15bed361a91c241ebc61a9ccc1a6f0460832fcd8",
+                    "created": "0001-01-01T00:00:00Z"
+                }
+            ],
+            "files": [
+                {
+                    "filename": "pom.xml",
+                    "status": "modified"
+                }
+            ],
+            "stats": {
+                "total": 2,
+                "additions": 2,
+                "deletions": 0
+            }
+        }
+    ]
+]  

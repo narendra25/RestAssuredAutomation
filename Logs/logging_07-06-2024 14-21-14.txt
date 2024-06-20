@@ -1,0 +1,41 @@
+Request method:	POST
+Request URI:	http://10.10.28.32:8098/teams/meeting/count
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		x-access=bcc91efb02b646c0b521b4032103944c
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "userPrincipalName": "siva.yannam@ojas-it.com",
+    "startDate": "2023-07-01",
+    "endDate": "2023-07-31"
+}
+HTTP/1.1 400 
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 0
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Fri, 07 Jun 2024 08:52:22 GMT
+Connection: close
+
+{
+    "timestamp": "2024-06-07T08:52:22.981715132",
+    "message": "Validation error occurred",
+    "errors": [
+        "userName could not be blank",
+        "userName could not be null"
+    ]
+}

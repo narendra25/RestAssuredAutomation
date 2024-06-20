@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration>
+<Appenders>
+	<File name="LoginUser" fileName="LogReports/ApplicationLogs__${date:yyyy-MM-dd_HH-mm-ss}/LoginUser.log" append="true">
+<PatternLayout pattern="[%highlight{%d{ABSOLUTE} %p}{STYLE=Logback, bold}][%style{%C{1.}.%M}{cyan}] %m %red{%xEx{full}} %n"/>
+</File>
+
+<File name="RegisterStepDefinition" fileName="LogReports/ApplicationLogs__${date:yyyy-MM-dd_HH-mm-ss}/RegisterStepDefinition.log" append="true">
+<PatternLayout pattern="[%highlight{%d{ABSOLUTE} %p}{STYLE=Logback, bold}][%style{%C{1.}.%M}{cyan}] %m %red{%xEx{full}} %n"/>
+</File>
+
+<File name="GetOrganzationRepoDeatails" fileName="LogReports/ApplicationLogs__${date:yyyy-MM-dd_HH-mm-ss}/GetOrganzationRepoDeatails.log" append="true">
+<PatternLayout pattern="[%highlight{%d{ABSOLUTE} %p}{STYLE=Logback, bold}][%style{%C{1.}.%M}{cyan}] %m %red{%xEx{full}} %n"/>
+</File>
+
+<File name="GetUserDetailsStepDefinition" fileName="LogReports/ApplicationLogs__${date:yyyy-MM-dd_HH-mm-ss}/GetUserDetailsStepDefinition.log" append="true">
+<PatternLayout pattern="[%highlight{%d{ABSOLUTE} %p}{STYLE=Logback, bold}][%style{%C{1.}.%M}{cyan}] %m %red{%xEx{full}} %n"/>
+</File>
+
+<File name="GetBrannchesDetailsStepDefinition" fileName="LogReports/ApplicationLogs__${date:yyyy-MM-dd_HH-mm-ss}/GetBrannchesDetailsStepDefinition.log" append="true">
+<PatternLayout pattern="[%highlight{%d{ABSOLUTE} %p}{STYLE=Logback, bold}][%style{%C{1.}.%M}{cyan}] %m %red{%xEx{full}} %n"/>
+</File>
+
+<File name="GetBranchDetail" fileName="LogReports/ApplicationLogs__${date:yyyy-MM-dd_HH-mm-ss}/GetBranchDetail.log" append="true">
+<PatternLayout pattern="[%highlight{%d{ABSOLUTE} %p}{STYLE=Logback, bold}][%style{%C{1.}.%M}{cyan}] %m %red{%xEx{full}} %n"/>
+</File>
+
+<File name="GetBranchesDetails" fileName="LogReports/ApplicationLogs__${date:yyyy-MM-dd_HH-mm-ss}/GetBranchesDetails.log" append="true">
+<PatternLayout pattern="[%highlight{%d{ABSOLUTE} %p}{STYLE=Logback, bold}][%style{%C{1.}.%M}{cyan}] %m %red{%xEx{full}} %n"/>
+</File>
+
+<File name="Getuserdetails" fileName="LogReports/ApplicationLogs__${date:yyyy-MM-dd_HH-mm-ss}/Getuserdetails.log" append="true">
+<PatternLayout pattern="[%highlight{%d{ABSOLUTE} %p}{STYLE=Logback, bold}][%style{%C{1.}.%M}{cyan}] %m %red{%xEx{full}} %n"/>
+</File>
+
+<File name="GetOrgDetails" fileName="LogReports/ApplicationLogs__${date:yyyy-MM-dd_HH-mm-ss}/GetOrgDetails.log" append="true">
+<PatternLayout pattern="[%highlight{%d{ABSOLUTE} %p}{STYLE=Logback, bold}][%style{%C{1.}.%M}{cyan}] %m %red{%xEx{full}} %n"/>
+</File>
+
+<File name="GetRepoDetails" fileName="LogReports/ApplicationLogs__${date:yyyy-MM-dd_HH-mm-ss}/GetRepoDetails.log" append="true">
+<PatternLayout pattern="[%highlight{%d{ABSOLUTE} %p}{STYLE=Logback, bold}][%style{%C{1.}.%M}{cyan}] %m %red{%xEx{full}} %n"/>
+</File>
+
+<Console name="STDOUT" target="SYSTEM_OUT">
+<PatternLayout pattern="[%highlight{%d{ABSOLUTE} %p}{STYLE=Logback, bold}][%style{%C{1.}.%M}{cyan}] %m %red{%xEx{full}} %n"/>
+</Console>
+
+</Appenders>
+
+<Loggers>
+	
+	<Logger name="com.Oneable.RestAssured.LoginStepDefintion.LoginUser" level="debug" additivity="false">
+<AppenderRef ref="LoginUser" />
+</Logger>
+
+<Logger name="com.Oneable.RestAssured.LoginStepDefintion.RegisterStepDefinition" level="debug" additivity="false">
+<AppenderRef ref="RegisterStepDefinition" />
+</Logger>
+
+<Logger name="com.Oneable.RestAssured.JBitbucketApi.StepDefintion.GetOrganzationRepoDeatails" level="debug" additivity="false">
+<AppenderRef ref="GetOrganzationRepoDeatails" />
+</Logger>
+
+<Logger name="com.Oneable.RestAssured.JBitbucketApi.StepDefintion.GetOrganzationRepoDeatails" level="debug" additivity="false">
+<AppenderRef ref="GetOrganzationRepoDeatails" />
+</Logger>
+
+<Logger name="com.Oneable.RestAssured.JBitbucketApi.StepDefintion.GetBrannchesDetailsStepDefinition" level="debug" additivity="false">
+<AppenderRef ref="GetBrannchesDetailsStepDefinition" />
+</Logger>
+
+	<Logger name="com.Oneable.RestAssured.GiteaApi.StepDefintion.GetBranchDetail" level="debug" additivity="false">
+<AppenderRef ref="GetBranchDetail" />
+</Logger>
+
+<Logger name="com.Oneable.RestAssured.GiteaApi.StepDefintion.GetBranchesDetails" level="debug" additivity="false">
+<AppenderRef ref="GetBranchesDetails" />
+</Logger>
+
+<Logger name="com.Oneable.RestAssured.GiteaApi.StepDefintion.Getuserdetails" level="debug" additivity="false">
+<AppenderRef ref="Getuserdetails" />
+</Logger>
+
+<Logger name="com.Oneable.RestAssured.GiteaApi.StepDefintion.GetOrgDetails" level="debug" additivity="false">
+<AppenderRef ref="GetOrgDetails" />
+</Logger>
+
+<Logger name="com.Oneable.RestAssured.GiteaApi.StepDefintion.GetRepoDetails" level="debug" additivity="false">
+<AppenderRef ref="GetRepoDetails" />
+</Logger>
+
+<Root level="info">
+<AppenderRef ref="FILEOUT" level="Trace"/>
+<AppenderRef ref="STDOUT" level="Trace"/>
+</Root>
+</Loggers>
+</Configuration>

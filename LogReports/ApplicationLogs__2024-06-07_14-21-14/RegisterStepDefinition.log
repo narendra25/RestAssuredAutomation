@@ -1,0 +1,2 @@
+[14:21:20,487 INFO][c.O.R.L.RegisterStepDefinition.user_registers_register_api_with_post_http_request] The status Code Is :HTTP/1.1 409   
+[14:21:20,488 INFO][c.O.R.L.RegisterStepDefinition.user_registers_register_api_with_post_http_request] The response is:User cannot be registered as user exists with the given username  
